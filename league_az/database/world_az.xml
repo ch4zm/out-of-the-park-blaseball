@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+OOTP loads this file whenever the user creates a new game. You can edit this file as long as you watch the syntax. Please read the online manual section about customizing the world XML file.
+NATION tokens:
+use_hardcoded_ml_player_origins - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. Just disable it (set it to 0) or delete it and OOTP will not use the hard coded player distribution for that nation anymore.
+this_is_modern_usa - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. There should always be at least one nation with this flag enabled because OOTP needs it as the nation for pre-defined leagues, like NL or AL.
+
+When OOTP creates fictional players for modern US major leagues, it will need to find the following nations by name: Dominican Republic, Venezuela, Puerto Rico, Mexico, Canada, Cuba, Japan, Panama, Australia, South Korea, Germany, Aruba, England, The Netherlands, Italy, Spain, Taiwan. So you should not change the names for these nations if you want to simulate realistic major leagues!
+-->
+
+<WORLD id="1" name="default" version="2" timestamp="OOTP Developments 2019-06-26 12:40:53">
+	<ETHNICITIES>
+	<ETHNICITY id="0" name="Default" african="5" asian="5" east_indian="5" caucasian="5" hispanic="5" />
+	</ETHNICITIES>
+	<CONTINENTS>
+	<CONTINENT id="1" name="The World" pop="100000000" etid="0" abbr="WD" dem="World">
+		<NATIONS>
+		<NATION id="2" name="One World Nation" pop="10000000" etid="0" capid="1581" gender="0" bbqual="0" abbr="WLD" dem="World" time_zone="-8">
+			<ETHN_PCTS>
+			<ETHN_PCT etid="0" pct="100" />
+			</ETHN_PCTS>
+			<STATE id="123" name="Arizona" pop="1000000" abbr="AZ" time_zone="-7" lat="34.2744" long="-111.6602">
+				<CITIES>
+				<CITY id="738" name="Ajo" pop="100000" time_zone="-7" lat="32.37" long="-112.86" altitude="1" abbr="AJO" />
+				<CITY id="3511" name="Apache Junction" pop="100000" time_zone="-7" lat="33.41" long="-111.55" altitude="1" abbr="APA" />
+				<CITY id="4028" name="Arizona City" pop="100000" time_zone="-7" lat="32.76" long="-111.67" abbr="ARI" />
+				<CITY id="5108" name="Avondale" pop="100000" time_zone="-7" lat="33.42" long="-112.32" abbr="AVO" />
+				<CITY id="5111" name="Avra Valley" pop="100000" time_zone="-7" lat="32.44" long="-111.31" altitude="1" abbr="AVR" />
+				<CITY id="6086" name="Bagdad" pop="100000" time_zone="-7" lat="34.58" long="-113.2" altitude="2" abbr="BAG" />
+				<CITY id="8616" name="Benson" pop="100000" time_zone="-7" lat="31.97" long="-110.29" altitude="2" abbr="BEN" />
+				<CITY id="9380" name="Big Park" pop="100000" time_zone="-7" lat="34.78" long="-111.76" altitude="2" abbr="BIG" />
+				<CITY id="9722" name="Bisbee" pop="100000" time_zone="-7" lat="31.45" long="-109.93" altitude="3" abbr="BIS" />
+				<CITY id="9872" name="Black Canyon City" pop="100000" time_zone="-7" lat="34.07" long="-112.15" altitude="1" abbr="BLA" />
+				<CITY id="12179" name="Buckeye" pop="100000" time_zone="-7" lat="33.44" long="-112.59" abbr="BUC" />
+				<CITY id="12478" name="Bullhead City" pop="100000" time_zone="-7" lat="35.11" long="-114.56" abbr="BUL" />
+				<CITY id="12950" name="Bylas" pop="100000" time_zone="-7" lat="33.14" long="-110.12" altitude="1" abbr="BYL" />
+				<CITY id="13352" name="Chinle" pop="100000" time_zone="-7" lat="36.15" long="-109.55" altitude="3" abbr="CHI" />
+				<CITY id="13364" name="Chino Valley" pop="100000" time_zone="-7" lat="34.76" long="-112.45" altitude="2" abbr="CHI" />
+				<CITY id="13722" name="Cibecue" pop="100000" time_zone="-7" lat="34.04" long="-110.48" altitude="3" abbr="CIB" />
+				<CITY id="13964" name="Clarkdale" pop="100000" time_zone="-7" lat="34.77" long="-112.06" altitude="2" abbr="CLA" />
+				<CITY id="14013" name="Claypool" pop="100000" time_zone="-7" lat="33.41" long="-110.84" altitude="2" abbr="CLA" />
+				<CITY id="14100" name="Clifton" pop="100000" time_zone="-7" lat="33.05" long="-109.3" altitude="2" abbr="CLI" />
+				<CITY id="14576" name="Colorado City" pop="100000" time_zone="-7" lat="36.99" long="-112.98" altitude="3" abbr="COL" />
+				<CITY id="14843" name="Congress" pop="100000" time_zone="-7" lat="34.16" long="-112.85" altitude="1" abbr="CON" />
+				<CITY id="14949" name="Coolidge" pop="100000" time_zone="-7" lat="32.98" long="-111.52" abbr="COO" />
+				<CITY id="15055" name="Cordes Lakes" pop="100000" time_zone="-7" lat="34.31" long="-112.1" altitude="2" abbr="COR" />
+				<CITY id="15138" name="Cornville" pop="100000" time_zone="-7" lat="34.72" long="-111.92" altitude="2" abbr="COR" />
+				<CITY id="15312" name="Cottonwood-Verde Village" pop="100000" time_zone="-7" lat="0" long="0" altitude="2" abbr="COT" />
+				<CITY id="15318" name="Cottonwood" pop="100000" time_zone="-7" lat="34.73" long="-112.02" altitude="1" abbr="COT" />
+				<CITY id="16860" name="Cameron" pop="100000" time_zone="-7" lat="35.88" long="-111.41" altitude="2" abbr="CAM" />
+				<CITY id="16900" name="Camp Verde" pop="100000" time_zone="-7" lat="34.57" long="-111.86" altitude="1" abbr="CAM" />
+				<CITY id="17192" name="Canyon Day" pop="100000" time_zone="-7" lat="33.78" long="-110.03" altitude="3" abbr="CAN" />
+				<CITY id="17404" name="Carefree" pop="100000" time_zone="-7" lat="33.82" long="-111.92" altitude="1" abbr="CAR" />
+				<CITY id="17669" name="Casa Grande" pop="100000" time_zone="-7" lat="32.89" long="-111.74" abbr="CAS" />
+				<CITY id="17694" name="Casas Adobes" pop="100000" time_zone="-7" lat="32.32" long="-110.99" altitude="1" abbr="CAS" />
+				<CITY id="17912" name="Catalina Foothills" pop="100000" time_zone="-7" lat="32.3" long="-110.92" altitude="1" abbr="CAT" />
+				<CITY id="17915" name="Catalina" pop="100000" time_zone="-7" lat="32.5" long="-110.92" altitude="1" abbr="CAT" />
+				<CITY id="18025" name="Cave Creek" pop="100000" time_zone="-7" lat="0" long="0" altitude="1" abbr="CAV" />
+				<CITY id="18201" name="Central Heights" pop="100000" time_zone="-7" lat="0" long="0" altitude="2" abbr="CEN" />
+				<CITY id="18202" name="Midland City" pop="100000" time_zone="-7" lat="0" long="0" altitude="2" abbr="MID" />
+				<CITY id="18763" name="Chandler" pop="100000" time_zone="-7" lat="33.3" long="-111.87" abbr="CHR" />
+				<CITY id="19761" name="Dudleyville" pop="100000" time_zone="-7" lat="32.97" long="-110.78" altitude="1" abbr="DUD" />
+				<CITY id="19925" name="Drexel Heights" pop="100000" time_zone="-7" lat="32.14" long="-111.03" altitude="1" abbr="DRE" />
+				<CITY id="19926" name="Drexel-Alvernon" pop="100000" time_zone="-7" lat="0" long="0" abbr="DRE" />
+				<CITY id="20274" name="Desert Hills" pop="100000" time_zone="-7" lat="34.55" long="-114.37" altitude="3" abbr="DES" />
+				<CITY id="20386" name="Dewey-Humboldt" pop="100000" time_zone="-7" lat="0" long="0" altitude="2" abbr="DEW" />
+				<CITY id="20670" name="Dilkon" pop="100000" time_zone="-7" lat="35.39" long="-110.32" altitude="3" abbr="DIL" />
+				<CITY id="21041" name="Dolan Springs" pop="100000" time_zone="-7" lat="35.59" long="-114.27" altitude="2" abbr="DOL" />
+				<CITY id="21383" name="Douglas" pop="100000" time_zone="-7" lat="31.34" long="-109.53" altitude="2" abbr="DOU" />
+				<CITY id="22534" name="East Sahuarita" pop="100000" time_zone="-7" lat="31.94" long="-110.93" altitude="1" abbr="EAS" />
+				<CITY id="22888" name="Ehrenberg" pop="100000" time_zone="-7" lat="33.6" long="-114.52" abbr="EHR" />
+				<CITY id="23147" name="El Mirage" pop="100000" time_zone="-7" lat="33.6" long="-112.32" abbr="EL " />
+				<CITY id="23507" name="Eloy" pop="100000" time_zone="-7" lat="32.76" long="-111.6" abbr="ELO" />
+				<CITY id="24426" name="Eagar" pop="100000" time_zone="-7" lat="34.11" long="-109.29" altitude="4" abbr="EAG" />
+				<CITY id="24869" name="Fredonia" pop="100000" time_zone="-7" lat="36.95" long="-112.53" altitude="2" abbr="FRE" />
+				<CITY id="25089" name="Fountain Hills" pop="100000" time_zone="-7" lat="33.61" long="-111.74" abbr="FOU" />
+				<CITY id="25135" name="Fortuna Foothills" pop="100000" time_zone="-7" lat="32.66" long="-114.41" abbr="FOR" />
+				<CITY id="25222" name="Ft. Defiance" pop="100000" time_zone="-7" lat="35.74" long="-109.08" altitude="4" abbr="FOR" />
+				<CITY id="25657" name="First Mesa" pop="100000" time_zone="-7" lat="35.84" long="-110.38" altitude="3" abbr="FIR" />
+				<CITY id="25722" name="Flagstaff" pop="100000" time_zone="-7" lat="35.19" long="-111.62" altitude="4" abbr="FLA" />
+				<CITY id="25826" name="Florence" pop="100000" time_zone="-7" lat="33.04" long="-111.37" abbr="FLO" />
+				<CITY id="25878" name="Flowing Wells" pop="100000" time_zone="-7" lat="32.29" long="-111.01" altitude="1" abbr="FLO" />
+				<CITY id="27007" name="Guadalupe" pop="100000" time_zone="-7" lat="33.37" long="-111.96" abbr="GUA" />
+				<CITY id="27435" name="Gadsden" pop="100000" time_zone="-7" lat="32.55" long="-114.78" abbr="GAD" />
+				<CITY id="27647" name="Ganado" pop="100000" time_zone="-7" lat="35.71" long="-109.54" altitude="3" abbr="GAN" />
+				<CITY id="28476" name="Gila Bend" pop="100000" time_zone="-7" lat="32.95" long="-112.72" abbr="GIL" />
+				<CITY id="28482" name="Gilbert" pop="100000" time_zone="-7" lat="33.33" long="-111.76" abbr="GLB" />
+				<CITY id="28713" name="Glendale" pop="100000" time_zone="-7" lat="33.58" long="-112.2" abbr="GDL" />
+				<CITY id="28760" name="Globe" pop="100000" time_zone="-7" lat="33.39" long="-110.79" altitude="2" abbr="GLO" />
+				<CITY id="28919" name="Gold Camp" pop="100000" time_zone="-7" lat="33.29" long="-111.3" altitude="1" abbr="GOL" />
+				<CITY id="28938" name="Golden Valley" pop="100000" time_zone="-7" lat="35.22" long="-114.22" altitude="1" abbr="GOL" />
+				<CITY id="29047" name="Goodyear" pop="100000" time_zone="-7" lat="33.35" long="-112.41" abbr="GOO" />
+				<CITY id="29480" name="Grand Canyon Village" pop="100000" time_zone="-7" lat="36.05" long="-112.15" altitude="4" abbr="GRA" />
+				<CITY id="29713" name="Green Valley" pop="100000" time_zone="-7" lat="31.85" long="-111.01" altitude="1" abbr="GRE" />
+				<CITY id="31183" name="Heber-Overgaard" pop="100000" time_zone="-7" lat="0" long="0" altitude="3" abbr="HEB" />
+				<CITY id="32249" name="Holbrook" pop="100000" time_zone="-7" lat="34.9" long="-110.16" altitude="3" abbr="HOL" />
+				<CITY id="32658" name="Houck" pop="100000" time_zone="-7" lat="35.28" long="-109.21" altitude="3" abbr="HOU" />
+				<CITY id="32789" name="Huachuca City" pop="100000" time_zone="-7" lat="31.63" long="-110.33" altitude="2" abbr="HUA" />
+				<CITY id="36250" name="Kachina Village" pop="100000" time_zone="-7" lat="35.1" long="-111.69" altitude="4" abbr="KAC" />
+				<CITY id="36379" name="Kaibito" pop="100000" time_zone="-7" lat="36.6" long="-111.07" altitude="3" abbr="KAI" />
+				<CITY id="37553" name="Kayenta" pop="100000" time_zone="-7" lat="36.73" long="-110.25" altitude="3" abbr="KAY" />
+				<CITY id="37612" name="Kearny" pop="100000" time_zone="-7" lat="33.06" long="-110.91" altitude="1" abbr="KEA" />
+				<CITY id="38568" name="Kingman" pop="100000" time_zone="-7" lat="35.21" long="-114.03" altitude="2" abbr="KIN" />
+				<CITY id="41418" name="Lukachukai" pop="100000" time_zone="-7" lat="36.42" long="-109.23" altitude="3" abbr="LUK" />
+				<CITY id="43215" name="Lake Havasu City" pop="100000" time_zone="-7" lat="34.5" long="-114.31" abbr="LAK" />
+				<CITY id="43242" name="Lake Montezuma" pop="100000" time_zone="-7" lat="34.63" long="-111.78" altitude="2" abbr="LAK" />
+				<CITY id="44567" name="Lechee" pop="100000" time_zone="-7" lat="35.03" long="-110.74" altitude="3" abbr="LEC" />
+				<CITY id="45103" name="Leupp" pop="100000" time_zone="-7" lat="35.3" long="-111.01" altitude="2" abbr="LEU" />
+				<CITY id="45785" name="Litchfield Park" pop="100000" time_zone="-7" lat="33.49" long="-112.36" abbr="LIT" />
+				<CITY id="45843" name="Littletown" pop="100000" time_zone="-7" lat="32.13" long="-110.87" altitude="1" abbr="LIT" />
+				<CITY id="47443" name="Mammoth" pop="100000" time_zone="-7" lat="32.72" long="-110.64" altitude="1" abbr="MAM" />
+				<CITY id="47868" name="Many Farms" pop="100000" time_zone="-7" lat="36.35" long="-109.62" altitude="3" abbr="MAN" />
+				<CITY id="48014" name="Marana" pop="100000" time_zone="-7" lat="32.39" long="-111.13" altitude="1" abbr="MAR" />
+				<CITY id="48225" name="Maricopa" pop="100000" time_zone="-7" lat="33.06" long="-112.05" abbr="MAR" />
+				<CITY id="49078" name="Mayer" pop="100000" time_zone="-7" lat="34.4" long="-112.24" altitude="2" abbr="MAY" />
+				<CITY id="49808" name="Mesa" pop="100000" time_zone="-7" lat="33.42" long="-111.74" abbr="MSA" />
+				<CITY id="50030" name="Miami" pop="100000" time_zone="-7" lat="33.4" long="-110.87" altitude="2" abbr="MIA" />
+				<CITY id="51012" name="Mohave Valley" pop="100000" time_zone="-7" lat="34.93" long="-114.59" abbr="MOH" />
+				<CITY id="51819" name="Morenci" pop="100000" time_zone="-7" lat="33.08" long="-109.36" altitude="2" abbr="MOR" />
+				<CITY id="52229" name="Mountainaire" pop="100000" time_zone="-7" lat="35.09" long="-111.67" altitude="4" abbr="MOU" />
+				<CITY id="52552" name="Munds Park" pop="100000" time_zone="-7" lat="34.95" long="-111.64" altitude="4" abbr="MUN" />
+				<CITY id="55126" name="New Kingman-Butler" pop="100000" time_zone="-7" lat="35.26" long="-114.03" altitude="2" abbr="NEW" />
+				<CITY id="55176" name="New River" pop="100000" time_zone="-7" lat="33.92" long="-112.14" altitude="1" abbr="NEW" />
+				<CITY id="55864" name="Nogales" pop="100000" time_zone="-7" lat="31.36" long="-110.93" altitude="2" abbr="NOG" />
+				<CITY id="57471" name="Oracle" pop="100000" time_zone="-7" lat="32.61" long="-110.77" altitude="2" abbr="ORA" />
+				<CITY id="57689" name="Oro Valley" pop="100000" time_zone="-7" lat="32.42" long="-110.96" altitude="1" abbr="ORO" />
+				<CITY id="58739" name="Phoenix" pop="100000" time_zone="-7" lat="33.54" long="-112.07" abbr="PHX" />
+				<CITY id="58841" name="Picture Rocks" pop="100000" time_zone="-7" lat="32.35" long="-111.25" altitude="1" abbr="PIC" />
+				<CITY id="59012" name="Pima" pop="100000" time_zone="-7" lat="32.9" long="-109.83" altitude="1" abbr="PIM" />
+				<CITY id="59100" name="Pine" pop="100000" time_zone="-7" lat="34.38" long="-111.45" altitude="3" abbr="PIN" />
+				<CITY id="59117" name="Pinetop-Lakeside" pop="100000" time_zone="-7" lat="34.14" long="-109.96" altitude="4" abbr="PIN" />
+				<CITY id="59163" name="Pinon" pop="100000" time_zone="-7" lat="36.1" long="-110.23" altitude="3" abbr="PIN" />
+				<CITY id="59272" name="Pirtleville" pop="100000" time_zone="-7" lat="31.36" long="-109.56" altitude="2" abbr="PIR" />
+				<CITY id="60879" name="Prescott Valley" pop="100000" time_zone="-7" lat="34.61" long="-112.32" altitude="3" abbr="PRE" />
+				<CITY id="60882" name="Prescott" pop="100000" time_zone="-7" lat="34.58" long="-112.45" altitude="3" abbr="PRE" />
+				<CITY id="62062" name="Page" pop="100000" time_zone="-7" lat="36.91" long="-111.47" altitude="2" abbr="PAG" />
+				<CITY id="62750" name="Paradise Valley" pop="100000" time_zone="-7" lat="33.54" long="-111.95" abbr="PAR" />
+				<CITY id="62907" name="Parker Strip" pop="100000" time_zone="-7" lat="0" long="0" abbr="PAR" />
+				<CITY id="62910" name="Parker" pop="100000" time_zone="-7" lat="34.15" long="-114.29" abbr="PAR" />
+				<CITY id="62925" name="Parks" pop="100000" time_zone="-7" lat="35.26" long="-111.95" altitude="4" abbr="PAR" />
+				<CITY id="63206" name="Paulden" pop="100000" time_zone="-7" lat="34.89" long="-112.47" altitude="2" abbr="PAU" />
+				<CITY id="63304" name="Payson" pop="100000" time_zone="-7" lat="34.24" long="-111.33" altitude="3" abbr="PAY" />
+				<CITY id="63646" name="Peoria" pop="100000" time_zone="-7" lat="33.69" long="-112.24" abbr="PRA" />
+				<CITY id="63734" name="Peridot" pop="100000" time_zone="-7" lat="33.31" long="-110.45" altitude="1" abbr="PER" />
+				<CITY id="63773" name="Quartzsite" pop="100000" time_zone="-7" lat="33.66" long="-114.23" abbr="QUA" />
+				<CITY id="63803" name="Queen Creek" pop="100000" time_zone="-7" lat="33.25" long="-111.63" abbr="QUE" />
+				<CITY id="65457" name="Rio Verde" pop="100000" time_zone="-7" lat="33.72" long="-111.68" altitude="1" abbr="RIO" />
+				<CITY id="66105" name="Rio Rico" pop="100000" time_zone="-7" lat="0" long="0" altitude="2" abbr="RIO" />
+				<CITY id="67678" name="Sacaton" pop="100000" time_zone="-7" lat="33.08" long="-111.74" abbr="SAC" />
+				<CITY id="67765" name="Safford" pop="100000" time_zone="-7" lat="32.83" long="-109.7" altitude="1" abbr="SAF" />
+				<CITY id="67886" name="Sahuarita" pop="100000" time_zone="-7" lat="31.96" long="-110.96" altitude="1" abbr="SAH" />
+				<CITY id="69509" name="Salome" pop="100000" time_zone="-7" lat="33.78" long="-113.61" altitude="1" abbr="SAL" />
+				<CITY id="69860" name="San Carlos" pop="100000" time_zone="-7" lat="33.35" long="-111.85" altitude="1" abbr="SAN" />
+				<CITY id="70330" name="San Luis" pop="100000" time_zone="-7" lat="32.49" long="-114.78" altitude="1" abbr="SAN" />
+				<CITY id="70346" name="San Manuel" pop="100000" time_zone="-7" lat="32.6" long="-110.63" altitude="2" abbr="SAN" />
+				<CITY id="72398" name="Scottsdale" pop="100000" time_zone="-7" lat="33.69" long="-111.87" abbr="SCO" />
+				<CITY id="72526" name="Sedona" pop="100000" time_zone="-7" lat="34.86" long="-111.8" altitude="2" abbr="SED" />
+				<CITY id="72678" name="Sells" pop="100000" time_zone="-7" lat="31.91" long="-111.88" altitude="1" abbr="SEL" />
+				<CITY id="73709" name="Show Low" pop="100000" time_zone="-7" lat="34.24" long="-110.05" altitude="3" abbr="SHO" />
+				<CITY id="73925" name="Sierra Vista Southeast" pop="100000" time_zone="-7" lat="31.46" long="-110.22" altitude="2" abbr="SIE" />
+				<CITY id="73926" name="Sierra Vista" pop="100000" time_zone="-7" lat="31.57" long="-110.32" altitude="2" abbr="SIE" />
+				<CITY id="74741" name="Snowflake" pop="100000" time_zone="-7" lat="34.51" long="-110.08" altitude="3" abbr="SNO" />
+				<CITY id="75018" name="Somerton" pop="100000" time_zone="-7" lat="32.6" long="-114.71" abbr="SOM" />
+				<CITY id="75418" name="South Tucson" pop="100000" time_zone="-7" lat="32.2" long="-110.97" altitude="1" abbr="SOU" />
+				<CITY id="75680" name="Spring Valley" pop="100000" time_zone="-7" lat="34.35" long="-112.16" altitude="2" abbr="SPR" />
+				<CITY id="75702" name="Springerville" pop="100000" time_zone="-7" lat="34.13" long="-109.29" altitude="4" abbr="SPR" />
+				<CITY id="76474" name="Strawberry" pop="100000" time_zone="-7" lat="34.41" long="-111.49" altitude="3" abbr="STR" />
+				<CITY id="76865" name="Summit" pop="100000" time_zone="-7" lat="32.07" long="-110.95" altitude="1" abbr="SUM" />
+				<CITY id="76879" name="Sun City West" pop="100000" time_zone="-7" lat="33.67" long="-112.35" abbr="SUN" />
+				<CITY id="76881" name="Sun City" pop="100000" time_zone="-7" lat="33.62" long="-112.28" abbr="SUN" />
+				<CITY id="76882" name="Sun Lakes" pop="100000" time_zone="-7" lat="33.21" long="-111.87" abbr="SUN" />
+				<CITY id="76886" name="Sun Valley" pop="100000" time_zone="-7" lat="34.25" long="-111.26" altitude="3" abbr="SUN" />
+				<CITY id="76986" name="Superior" pop="100000" time_zone="-7" lat="33.29" long="-111.1" altitude="1" abbr="SUP" />
+				<CITY id="77041" name="Surprise" pop="100000" time_zone="-7" lat="33.66" long="-112.47" abbr="SUR" />
+				<CITY id="77245" name="Swift Trail Junction" pop="100000" time_zone="-7" lat="32.73" long="-109.71" altitude="1" abbr="SWI" />
+				<CITY id="78508" name="Tanque Verde" pop="100000" time_zone="-7" lat="32.25" long="-110.74" altitude="1" abbr="TAN" />
+				<CITY id="78847" name="Taylor" pop="100000" time_zone="-7" lat="34.47" long="-110.09" altitude="3" abbr="TAY" />
+				<CITY id="78961" name="Teec Nos Pos" pop="100000" time_zone="-7" lat="36.92" long="-109.09" altitude="3" abbr="TEE" />
+				<CITY id="79104" name="Tempe" pop="100000" time_zone="-7" lat="33.39" long="-111.93" abbr="TEM" />
+				<CITY id="79550" name="Thatcher" pop="100000" time_zone="-7" lat="32.85" long="-109.76" altitude="1" abbr="THA" />
+				<CITY id="79779" name="Three Points" pop="100000" time_zone="-7" lat="32.08" long="-111.31" altitude="1" abbr="THR" />
+				<CITY id="80455" name="Tolleson" pop="100000" time_zone="-7" lat="33.45" long="-112.26" abbr="TOL" />
+				<CITY id="80506" name="Tombstone" pop="100000" time_zone="-7" lat="31.71" long="-110.07" altitude="2" abbr="TOM" />
+				<CITY id="80720" name="Tortolita" pop="100000" time_zone="-7" lat="32.41" long="-111.02" altitude="1" abbr="TOR" />
+				<CITY id="81327" name="Tsaile" pop="100000" time_zone="-7" lat="0" long="0" abbr="TSA" />
+				<CITY id="81423" name="Tuba City" pop="100000" time_zone="-7" lat="36.14" long="-111.24" altitude="3" abbr="TUB" />
+				<CITY id="81427" name="Tubac" pop="100000" time_zone="-7" lat="31.61" long="-111.05" altitude="1" abbr="TUB" />
+				<CITY id="81479" name="Tucson Estates" pop="100000" time_zone="-7" lat="32.19" long="-111.09" altitude="1" abbr="TUC" />
+				<CITY id="81480" name="Tucson" pop="100000" time_zone="-7" lat="32.2" long="-110.89" altitude="1" abbr="TSN" />
+				<CITY id="83796" name="Vail" pop="100000" time_zone="-7" lat="32.05" long="-110.71" altitude="1" abbr="VAI" />
+				<CITY id="83918" name="Valencia West" pop="100000" time_zone="-7" lat="0" long="0" abbr="VAL" />
+				<CITY id="85815" name="Whiteriver" pop="100000" time_zone="-7" lat="33.84" long="-109.96" altitude="3" abbr="WHI" />
+				<CITY id="86105" name="Wellton" pop="100000" time_zone="-7" lat="32.67" long="-114.15" abbr="WEL" />
+				<CITY id="86414" name="Wickenburg" pop="100000" time_zone="-7" lat="33.97" long="-112.73" altitude="1" abbr="WIC" />
+				<CITY id="86846" name="Winslow" pop="100000" time_zone="-7" lat="35.03" long="-110.71" altitude="2" abbr="WIN" />
+				<CITY id="86917" name="Window Rock" pop="100000" time_zone="-7" lat="35.68" long="-109.05" altitude="4" abbr="WIN" />
+				<CITY id="87067" name="Williamson" pop="100000" time_zone="-7" lat="34.69" long="-112.54" altitude="3" abbr="WIL" />
+				<CITY id="87077" name="Williams" pop="100000" time_zone="-7" lat="35.25" long="-112.19" altitude="4" abbr="WIL" />
+				<CITY id="87088" name="Willcox" pop="100000" time_zone="-7" lat="32.25" long="-109.83" altitude="2" abbr="WIL" />
+				<CITY id="87228" name="Whetstone" pop="100000" time_zone="-7" lat="31.96" long="-110.34" altitude="2" abbr="WHE" />
+				<CITY id="88534" name="Yuma" pop="100000" time_zone="-7" lat="32.68" long="-114.62" abbr="YUM" />
+				<CITY id="88591" name="Youngtown" pop="100000" time_zone="-7" lat="33.59" long="-112.3" abbr="YOU" />
+				</CITIES>
+			</STATE>
+		</NATION>
+		</NATIONS>
+	</CONTINENT>
+	</CONTINENTS>
+</WORLD>
