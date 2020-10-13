@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+OOTP loads this file whenever the user creates a new game. You can edit this file as long as you watch the syntax. Please read the online manual section about customizing the world XML file.
+NATION tokens:
+use_hardcoded_ml_player_origins - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. Just disable it (set it to 0) or delete it and OOTP will not use the hard coded player distribution for that nation anymore.
+this_is_modern_usa - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. There should always be at least one nation with this flag enabled because OOTP needs it as the nation for pre-defined leagues, like NL or AL.
+
+When OOTP creates fictional players for modern US major leagues, it will need to find the following nations by name: Dominican Republic, Venezuela, Puerto Rico, Mexico, Canada, Cuba, Japan, Panama, Australia, South Korea, Germany, Aruba, England, The Netherlands, Italy, Spain, Taiwan. So you should not change the names for these nations if you want to simulate realistic major leagues!
+-->
+
+<WORLD id="1" name="default" version="2" timestamp="OOTP Developments 2019-06-26 12:40:53">
+	<ETHNICITIES>
+	<ETHNICITY id="0" name="Default" african="5" asian="5" east_indian="5" caucasian="5" hispanic="5" />
+	</ETHNICITIES>
+	<CONTINENTS>
+	<CONTINENT id="1" name="The World" pop="1000000" etid="0" abbr="WD" dem="World">
+		<NATIONS>
+		<NATION id="2" name="One World Nation" pop="1000000" etid="0" capid="1581" gender="0" bbqual="0" abbr="WLD" dem="World" time_zone="-8">
+			<ETHN_PCTS>
+			<ETHN_PCT etid="0" pct="100" />
+			</ETHN_PCTS>
+			<STATE id="3" name="One World State" pop="1000000" abbr="WS" time_zone="-8" observes_dst="1" lat="47.3826" long="-120.4472">
+				<CITIES>
+				<CITY id="357" name="Abbotsford" pop="1934" time_zone="-6" observes_dst="1" lat="44.95" long="-90.32" abbr="ABB" />
+				<CITY id="1327" name="Albany" pop="1122" time_zone="-6" observes_dst="1" lat="42.71" long="-89.44" abbr="ALB" />
+				<CITY id="1585" name="Algoma" pop="3153" time_zone="-6" observes_dst="1" lat="44.61" long="-87.43" abbr="ALG" />
+				<CITY id="1733" name="Allouez" pop="14990" time_zone="-6" observes_dst="1" lat="44.47" long="-88.03" abbr="ALL" />
+				<CITY id="2228" name="Adams" pop="1844" time_zone="-6" observes_dst="1" lat="43.96" long="-89.82" abbr="ADA" />
+				<CITY id="2407" name="Altoona" pop="6462" time_zone="-6" observes_dst="1" lat="44.8" long="-91.44" abbr="ALT" />
+				<CITY id="2669" name="Amery" pop="2875" time_zone="-6" observes_dst="1" lat="45.31" long="-92.36" abbr="AME" />
+				<CITY id="3246" name="Antigo" pop="8198" time_zone="-6" observes_dst="1" lat="45.14" long="-89.15" abbr="ANT" />
+				<CITY id="3602" name="Appleton" pop="70112" time_zone="-6" observes_dst="1" lat="44.27" long="-88.4" abbr="APP" />
+				<CITY id="3837" name="Arcadia" pop="2292" time_zone="-6" observes_dst="1" lat="44.25" long="-91.5" abbr="ARC" />
+				<CITY id="4438" name="Ashland" pop="8251" time_zone="-6" observes_dst="1" lat="46.59" long="-90.88" abbr="ASH" />
+				<CITY id="4466" name="Ashwaubenon" pop="16842" time_zone="-6" observes_dst="1" lat="44.49" long="-88.08" abbr="ASH" />
+				<CITY id="4650" name="Athens" pop="1060" time_zone="-6" observes_dst="1" lat="45.03" long="-90.07" abbr="ATH" />
+				<CITY id="4891" name="Augusta" pop="1372" time_zone="-6" observes_dst="1" lat="44.68" long="-91.12" abbr="AUG" />
+				<CITY id="6495" name="Baldwin" pop="3377" time_zone="-6" observes_dst="1" lat="44.97" long="-92.37" abbr="BAL" />
+				<CITY id="6893" name="Bangor" pop="1397" time_zone="-6" observes_dst="1" lat="43.89" long="-90.99" abbr="BAN" />
+				<CITY id="7049" name="Baraboo" pop="10907" time_zone="-6" observes_dst="1" lat="43.47" long="-89.74" abbr="BAR" />
+				<CITY id="7244" name="Barneveld" pop="1097" time_zone="-6" observes_dst="1" lat="43.02" long="-89.9" abbr="BAR" />
+				<CITY id="7343" name="Barron" pop="3325" time_zone="-6" observes_dst="1" lat="45.4" long="-91.85" abbr="BAR" />
+				<CITY id="7807" name="Bayside" pop="4448" time_zone="-6" observes_dst="1" lat="43.18" long="-87.9" abbr="BAY" />
+				<CITY id="7996" name="Beaver Dam" pop="14856" time_zone="-6" observes_dst="1" lat="43.46" long="-88.84" abbr="BEA" />
+				<CITY id="8264" name="Belgium" pop="2100" time_zone="-6" observes_dst="1" lat="43.5" long="-87.85" abbr="BEL" />
+				<CITY id="8359" name="Belleville" pop="2082" time_zone="-6" observes_dst="1" lat="42.86" long="-89.54" abbr="BEL" />
+				<CITY id="8368" name="Bellevue" pop="14394" time_zone="-6" observes_dst="1" lat="44.44" long="-87.92" abbr="BEL" />
+				<CITY id="8435" name="Beloit" pop="35210" time_zone="-6" observes_dst="1" lat="42.52" long="-89.02" abbr="BEL" />
+				<CITY id="8628" name="Benton" pop="1001" time_zone="-6" observes_dst="1" lat="42.57" long="-90.38" abbr="BEN" />
+				<CITY id="8810" name="Berlin" pop="5290" time_zone="-6" observes_dst="1" lat="43.97" long="-88.94" abbr="BER" />
+				<CITY id="9372" name="Big Bend" pop="1272" time_zone="-6" observes_dst="1" lat="42.88" long="-88.21" abbr="BIG" />
+				<CITY id="9873" name="Black Creek" pop="1198" time_zone="-6" observes_dst="1" lat="44.48" long="-88.45" abbr="BLA" />
+				<CITY id="9876" name="Black Earth" pop="1283" time_zone="-6" observes_dst="1" lat="43.14" long="-89.75" abbr="BLA" />
+				<CITY id="9882" name="Black River Falls" pop="3550" time_zone="-6" observes_dst="1" lat="44.29" long="-90.85" abbr="BLA" />
+				<CITY id="9947" name="Blair" pop="1271" time_zone="-6" observes_dst="1" lat="44.29" long="-91.24" abbr="BLA" />
+				<CITY id="10057" name="Bloomer" pop="3247" time_zone="-6" observes_dst="1" lat="45.1" long="-91.49" abbr="BLO" />
+				<CITY id="10357" name="Bohners Lake" pop="2154" time_zone="-6" observes_dst="1" lat="42.62" long="-88.28" abbr="BOH" />
+				<CITY id="10640" name="Bonduel" pop="1399" time_zone="-6" observes_dst="1" lat="44.74" long="-88.44" abbr="BON" />
+				<CITY id="10923" name="Boscobel" pop="3274" time_zone="-6" observes_dst="1" lat="43.13" long="-90.71" abbr="BOS" />
+				<CITY id="11186" name="Boyceville" pop="1052" time_zone="-6" observes_dst="1" lat="45.04" long="-92.04" abbr="BOY" />
+				<CITY id="11647" name="Brice Prairie" pop="2326" time_zone="-6" observes_dst="1" lat="43.94" long="-91.3" abbr="BRI" />
+				<CITY id="11741" name="Brillion" pop="2938" time_zone="-6" observes_dst="1" lat="44.18" long="-88.06" abbr="BRI" />
+				<CITY id="11831" name="Brodhead" pop="3041" time_zone="-6" observes_dst="1" lat="42.62" long="-89.38" abbr="BRO" />
+				<CITY id="11874" name="Brookfield" pop="40056" time_zone="-6" observes_dst="1" lat="43.06" long="-88.12" abbr="BRO" />
+				<CITY id="11893" name="Brooklyn" pop="1120" time_zone="-6" observes_dst="1" lat="42.85" long="-89.37" abbr="BRO" />
+				<CITY id="11944" name="Brown Deer" pop="11911" time_zone="-6" observes_dst="1" lat="43.18" long="-87.97" abbr="BRO" />
+				<CITY id="11954" name="Browns Lake" pop="2021" time_zone="-6" observes_dst="1" lat="42.69" long="-88.23" abbr="BRO" />
+				<CITY id="12306" name="Buffalo City" pop="1069" time_zone="-6" observes_dst="1" lat="44.23" long="-91.86" abbr="BUF" />
+				<CITY id="12714" name="Burlington" pop="11414" time_zone="-6" observes_dst="1" lat="42.68" long="-88.28" abbr="BUR" />
+				<CITY id="12869" name="Butler" pop="1836" time_zone="-6" observes_dst="1" lat="43.11" long="-88.07" abbr="BUT" />
+				<CITY id="13293" name="Chilton" pop="3613" time_zone="-6" observes_dst="1" lat="44.03" long="-88.16" abbr="CHI" />
+				<CITY id="13388" name="Chippewa Falls" pop="12607" time_zone="-6" observes_dst="1" lat="44.93" long="-91.39" abbr="CHI" />
+				<CITY id="14030" name="Clear Lake" pop="1096" time_zone="-6" observes_dst="1" lat="45.25" long="-92.27" abbr="CLE" />
+				<CITY id="14077" name="Cleveland" pop="1418" time_zone="-6" observes_dst="1" lat="43.92" long="-87.75" abbr="CLE" />
+				<CITY id="14123" name="Clinton" pop="3181" time_zone="-6" observes_dst="1" lat="42.56" long="-88.87" abbr="CLI" />
+				<CITY id="14134" name="Clintonville" pop="4469" time_zone="-6" observes_dst="1" lat="44.62" long="-88.76" abbr="CLI" />
+				<CITY id="14384" name="Colby" pop="1695" time_zone="-6" observes_dst="1" lat="44.91" long="-90.32" abbr="COL" />
+				<CITY id="14418" name="Colfax" pop="1073" time_zone="-6" observes_dst="1" lat="45" long="-91.73" abbr="COL" />
+				<CITY id="14624" name="Columbus" pop="5071" time_zone="-6" observes_dst="1" lat="43.34" long="-89.02" abbr="COL" />
+				<CITY id="14665" name="Combined Locks" pop="2953" time_zone="-6" observes_dst="1" lat="44.27" long="-88.31" abbr="COM" />
+				<CITY id="14701" name="Como" pop="2158" time_zone="-6" observes_dst="1" lat="42.61" long="-88.48" abbr="COM" />
+				<CITY id="15115" name="Cornell" pop="1385" time_zone="-6" observes_dst="1" lat="45.17" long="-91.15" abbr="COR" />
+				<CITY id="15303" name="Cottage Grove" pop="5121" time_zone="-6" observes_dst="1" lat="43.08" long="-89.2" abbr="COT" />
+				<CITY id="15544" name="Crandon" pop="1821" time_zone="-6" observes_dst="1" lat="45.57" long="-88.9" abbr="CRA" />
+				<CITY id="15689" name="Crivitz" pop="1059" time_zone="-6" observes_dst="1" lat="45.23" long="-88.01" abbr="CRI" />
+				<CITY id="15732" name="Cross Plains" pop="3443" time_zone="-6" observes_dst="1" lat="43.11" long="-89.66" abbr="CRO" />
+				<CITY id="15876" name="Cuba City" pop="2115" time_zone="-6" observes_dst="1" lat="42.61" long="-90.43" abbr="CUB" />
+				<CITY id="15901" name="Cudahy" pop="18099" time_zone="-6" observes_dst="1" lat="42.95" long="-87.86" abbr="CUD" />
+				<CITY id="16003" name="Cumberland" pop="2313" time_zone="-6" observes_dst="1" lat="45.53" long="-92.02" abbr="CUM" />
+				<CITY id="16382" name="Cadott" pop="1285" time_zone="-6" observes_dst="1" lat="44.95" long="-91.15" abbr="CAD" />
+				<CITY id="16621" name="Caledonia" pop="24282" time_zone="-6" observes_dst="1" lat="42.8" long="-87.87" abbr="CAL" />
+				<CITY id="16827" name="Cambridge" pop="1217" time_zone="-6" observes_dst="1" lat="43" long="-89.02" abbr="CAM" />
+				<CITY id="16861" name="Cameron" pop="1651" time_zone="-6" observes_dst="1" lat="45.41" long="-91.74" abbr="CAM" />
+				<CITY id="16893" name="Camp Lake" pop="3805" time_zone="-6" observes_dst="1" lat="42.53" long="-88.14" abbr="CAM" />
+				<CITY id="16918" name="Campbellsport" pop="1915" time_zone="-6" observes_dst="1" lat="43.6" long="-88.28" abbr="CAM" />
+				<CITY id="17721" name="Cashton" pop="1031" time_zone="-6" observes_dst="1" lat="43.74" long="-90.78" abbr="CAS" />
+				<CITY id="17755" name="Cassville" pop="1031" time_zone="-6" observes_dst="1" lat="42.71" long="-90.99" abbr="CAS" />
+				<CITY id="18103" name="Cedar Grove" pop="1957" time_zone="-6" observes_dst="1" lat="43.57" long="-87.82" abbr="CED" />
+				<CITY id="18114" name="Cedarburg" pop="11220" time_zone="-6" observes_dst="1" lat="43.3" long="-87.99" abbr="CED" />
+				<CITY id="18228" name="Centuria" pop="1026" time_zone="-6" observes_dst="1" lat="45.45" long="-92.55" abbr="CEN" />
+				<CITY id="18574" name="Chain O' Lakes-King" pop="2509" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="CHA" />
+				<CITY id="19360" name="Chetek" pop="2144" time_zone="-6" observes_dst="1" lat="45.31" long="-91.65" abbr="CHE" />
+				<CITY id="19524" name="Durand" pop="1913" time_zone="-6" observes_dst="1" lat="44.63" long="-91.97" abbr="DUR" />
+				<CITY id="20015" name="Delafield" pop="6859" time_zone="-6" observes_dst="1" lat="43.06" long="-88.4" abbr="DEL" />
+				<CITY id="20021" name="Delavan Lake" pop="2417" time_zone="-6" observes_dst="1" lat="42.58" long="-88.63" abbr="DEL" />
+				<CITY id="20023" name="Delavan" pop="8535" time_zone="-6" observes_dst="1" lat="42.63" long="-88.64" abbr="DEL" />
+				<CITY id="20147" name="Denmark" pop="2033" time_zone="-6" observes_dst="1" lat="44.35" long="-87.83" abbr="DEN" />
+				<CITY id="20544" name="Dickeyville" pop="1064" time_zone="-6" observes_dst="1" lat="42.63" long="-90.59" abbr="DIC" />
+				<CITY id="20991" name="Dodgeville" pop="4879" time_zone="-6" observes_dst="1" lat="42.96" long="-90.13" abbr="DOD" />
+				<CITY id="21403" name="Dousman" pop="1978" time_zone="-6" observes_dst="1" lat="43.01" long="-88.47" abbr="DOU" />
+				<CITY id="22034" name="Darien" pop="1671" time_zone="-6" observes_dst="1" lat="42.6" long="-88.71" abbr="DAR" />
+				<CITY id="22042" name="Darlington" pop="2375" time_zone="-6" observes_dst="1" lat="42.68" long="-90.12" abbr="DAR" />
+				<CITY id="22266" name="De Pere" pop="23419" time_zone="-6" observes_dst="1" lat="44.44" long="-88.07" abbr="DE " />
+				<CITY id="22367" name="Deerfield" pop="2004" time_zone="-6" observes_dst="1" lat="43.05" long="-89.08" abbr="DEE" />
+				<CITY id="22374" name="DeForest" pop="8559" time_zone="-6" observes_dst="1" lat="43.25" long="-89.34" abbr="DEF" />
+				<CITY id="22545" name="East Troy" pop="4377" time_zone="-6" observes_dst="1" lat="42.79" long="-88.41" abbr="EAS" />
+				<CITY id="22598" name="Eau Claire" pop="62852" time_zone="-6" observes_dst="1" lat="44.82" long="-91.49" abbr="EAU" />
+				<CITY id="22746" name="Edgar" pop="1334" time_zone="-6" observes_dst="1" lat="44.93" long="-89.96" abbr="EDG" />
+				<CITY id="22757" name="Edgerton" pop="4927" time_zone="-6" observes_dst="1" lat="42.84" long="-89.07" abbr="EDG" />
+				<CITY id="23409" name="Elkhart Lake" pop="1040" time_zone="-6" observes_dst="1" lat="43.83" long="-88.02" abbr="ELK" />
+				<CITY id="23416" name="Elkhorn" pop="8892" time_zone="-6" observes_dst="1" lat="42.67" long="-88.54" abbr="ELK" />
+				<CITY id="23468" name="Ellsworth" pop="3074" time_zone="-6" observes_dst="1" lat="44.73" long="-92.49" abbr="ELL" />
+				<CITY id="23475" name="Elm Grove" pop="6301" time_zone="-6" observes_dst="1" lat="43.04" long="-88.08" abbr="ELM" />
+				<CITY id="23509" name="Elroy" pop="1508" time_zone="-6" observes_dst="1" lat="43.74" long="-90.27" abbr="ELR" />
+				<CITY id="24315" name="Evansville" pop="4453" time_zone="-6" observes_dst="1" lat="42.78" long="-89.3" abbr="EVA" />
+				<CITY id="24333" name="Evergreen" pop="3669" time_zone="-6" observes_dst="1" lat="44.84" long="-89.64" abbr="EVE" />
+				<CITY id="24429" name="Eagle Lake" pop="1370" time_zone="-6" observes_dst="1" lat="42.71" long="-88.13" abbr="EAG" />
+				<CITY id="24437" name="Eagle River" pop="1645" time_zone="-6" observes_dst="1" lat="45.92" long="-89.24" altitude="1" abbr="EAG" />
+				<CITY id="24439" name="Eagle" pop="1739" time_zone="-6" observes_dst="1" lat="42.88" long="-88.47" abbr="EAG" />
+				<CITY id="24803" name="French Island" pop="4339" time_zone="-6" observes_dst="1" lat="43.86" long="-91.26" abbr="FRE" />
+				<CITY id="24868" name="Fredonia" pop="2213" time_zone="-6" observes_dst="1" lat="43.47" long="-87.95" abbr="FRE" />
+				<CITY id="24890" name="Frederic" pop="1247" time_zone="-6" observes_dst="1" lat="45.66" long="-92.47" abbr="FRE" />
+				<CITY id="24934" name="Franksville" pop="1846" time_zone="-6" observes_dst="1" lat="42.76" long="-87.91" abbr="FRA" />
+				<CITY id="24948" name="Franklin" pop="33272" time_zone="-6" observes_dst="1" lat="42.89" long="-88.01" abbr="FRA" />
+				<CITY id="25052" name="Fox Point" pop="6852" time_zone="-6" observes_dst="1" lat="43.16" long="-87.9" abbr="FOX" />
+				<CITY id="25053" name="Fox Lake" pop="1466" time_zone="-6" observes_dst="1" lat="43.57" long="-88.91" abbr="FOX" />
+				<CITY id="25241" name="Ft. Atkinson" pop="11791" time_zone="-6" observes_dst="1" lat="42.93" long="-88.84" abbr="FOR" />
+				<CITY id="25429" name="Fennimore" pop="2323" time_zone="-6" observes_dst="1" lat="42.98" long="-90.66" abbr="FEN" />
+				<CITY id="25681" name="Fitchburg" pop="22586" time_zone="-6" observes_dst="1" lat="42.99" long="-89.43" abbr="FIT" />
+				<CITY id="25931" name="Fond du Lac" pop="41860" time_zone="-6" observes_dst="1" lat="43.77" long="-88.45" abbr="FON" />
+				<CITY id="25954" name="Fontana-on-Geneva Lake" pop="1964" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="FON" />
+				<CITY id="26343" name="Fall Creek" pop="1237" time_zone="-6" observes_dst="1" lat="44.76" long="-91.28" abbr="FAL" />
+				<CITY id="26344" name="Fall River" pop="1155" time_zone="-6" observes_dst="1" lat="43.38" long="-89.05" abbr="FAL" />
+				<CITY id="27552" name="Galesville" pop="1397" time_zone="-6" observes_dst="1" lat="44.08" long="-91.35" abbr="GAL" />
+				<CITY id="28159" name="Genoa City" pop="2720" time_zone="-6" observes_dst="1" lat="42.5" long="-88.33" abbr="GEN" />
+				<CITY id="28251" name="Germantown" pop="19465" time_zone="-6" observes_dst="1" lat="43.24" long="-88.12" abbr="GER" />
+				<CITY id="28500" name="Gillett" pop="1199" time_zone="-6" observes_dst="1" lat="44.89" long="-88.31" abbr="GIL" />
+				<CITY id="28710" name="Glendale" pop="12974" time_zone="-6" observes_dst="1" lat="43.13" long="-87.93" abbr="GLE" />
+				<CITY id="28739" name="Glenwood City" pop="1211" time_zone="-6" observes_dst="1" lat="45.06" long="-92.17" abbr="GLE" />
+				<CITY id="29406" name="Grafton" pop="11833" time_zone="-6" observes_dst="1" lat="43.32" long="-87.95" abbr="GRA" />
+				<CITY id="29482" name="Grand Chute" pop="20868" time_zone="-6" observes_dst="1" lat="44.3" long="-88.4" abbr="GRA" />
+				<CITY id="29567" name="Grantsburg" pop="1437" time_zone="-6" observes_dst="1" lat="45.78" long="-92.68" abbr="GRA" />
+				<CITY id="29696" name="Green Bay" pop="101012" time_zone="-6" observes_dst="1" lat="44.52" long="-87.99" abbr="GB" />
+				<CITY id="29703" name="Green Lake" pop="1121" time_zone="-6" observes_dst="1" lat="43.84" long="-88.96" abbr="GRE" />
+				<CITY id="29725" name="Greendale" pop="13990" time_zone="-6" observes_dst="1" lat="42.94" long="-88" abbr="GRE" />
+				<CITY id="29742" name="Greenfield" pop="36493" time_zone="-6" observes_dst="1" lat="42.96" long="-88.01" abbr="GRE" />
+				<CITY id="29786" name="Greenwood" pop="1100" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="GRE" />
+				<CITY id="30369" name="Hales Corners" pop="7631" time_zone="-6" observes_dst="1" lat="42.94" long="-88.05" abbr="HAL" />
+				<CITY id="30510" name="Hammond" pop="2022" time_zone="-6" observes_dst="1" lat="44.98" long="-92.44" abbr="HAM" />
+				<CITY id="30806" name="Hartford" pop="12525" time_zone="-6" observes_dst="1" lat="43.32" long="-88.38" abbr="HAR" />
+				<CITY id="30819" name="Hartland" pop="8786" time_zone="-6" observes_dst="1" lat="43.1" long="-88.34" abbr="HAR" />
+				<CITY id="31129" name="Hayward" pop="2317" time_zone="-6" observes_dst="1" lat="46.01" long="-91.48" abbr="HAY" />
+				<CITY id="31139" name="Hazel Green" pop="1189" time_zone="-6" observes_dst="1" lat="42.53" long="-90.43" abbr="HAZ" />
+				<CITY id="31851" name="Hilbert" pop="1096" time_zone="-6" observes_dst="1" lat="44.14" long="-88.16" abbr="HIL" />
+				<CITY id="31882" name="Hillsboro" pop="1303" time_zone="-6" observes_dst="1" lat="43.65" long="-90.34" abbr="HIL" />
+				<CITY id="32317" name="Holmen" pop="7536" time_zone="-6" observes_dst="1" lat="43.96" long="-91.26" abbr="HOL" />
+				<CITY id="32537" name="Horicon" pop="3632" time_zone="-6" observes_dst="1" lat="43.45" long="-88.63" abbr="HOR" />
+				<CITY id="32621" name="Hortonville" pop="2542" time_zone="-6" observes_dst="1" lat="44.33" long="-88.64" abbr="HOR" />
+				<CITY id="32711" name="Howard" pop="16379" time_zone="-6" observes_dst="1" lat="44.57" long="-88.08" abbr="HOW" />
+				<CITY id="32712" name="Howards Grove" pop="2938" time_zone="-6" observes_dst="1" lat="43.83" long="-87.82" abbr="HOW" />
+				<CITY id="32883" name="Hudson" pop="11288" time_zone="-6" observes_dst="1" lat="44.97" long="-92.74" abbr="HUD" />
+				<CITY id="33082" name="Hurley" pop="1684" time_zone="-6" observes_dst="1" lat="46.45" long="-90.19" abbr="HUR" />
+				<CITY id="33113" name="Hustisford" pop="1111" time_zone="-6" observes_dst="1" lat="43.35" long="-88.6" abbr="HUS" />
+				<CITY id="33871" name="Iola" pop="1243" time_zone="-6" observes_dst="1" lat="44.51" long="-89.13" abbr="IOL" />
+				<CITY id="34454" name="Independence" pop="1254" time_zone="-6" observes_dst="1" lat="44.36" long="-91.42" abbr="IND" />
+				<CITY id="34767" name="Jackson" pop="6208" time_zone="-6" observes_dst="1" lat="43.32" long="-88.17" abbr="JAC" />
+				<CITY id="35013" name="Janesville" pop="61675" time_zone="-6" observes_dst="1" lat="42.68" long="-89.02" abbr="JAN" />
+				<CITY id="35202" name="Jefferson" pop="7432" time_zone="-6" observes_dst="1" lat="43.01" long="-88.81" abbr="JEF" />
+				<CITY id="35559" name="Johnson Creek" pop="1835" time_zone="-6" observes_dst="1" lat="43.08" long="-88.77" abbr="JOH" />
+				<CITY id="35809" name="Juneau" pop="2467" time_zone="-6" observes_dst="1" lat="43.41" long="-88.71" abbr="JUN" />
+				<CITY id="37476" name="Kaukauna" pop="14788" time_zone="-6" observes_dst="1" lat="44.28" long="-88.27" abbr="KAU" />
+				<CITY id="37826" name="Kenosha" pop="93982" time_zone="-6" observes_dst="1" lat="42.58" long="-87.85" abbr="KEN" />
+				<CITY id="37929" name="Keshena" pop="1811" time_zone="-6" observes_dst="1" lat="44.88" long="-88.63" abbr="KES" />
+				<CITY id="37976" name="Kewaskum" pop="3545" time_zone="-6" observes_dst="1" lat="43.52" long="-88.23" abbr="KEW" />
+				<CITY id="37977" name="Kewaunee" pop="2892" time_zone="-6" observes_dst="1" lat="44.46" long="-87.5" abbr="KEW" />
+				<CITY id="38370" name="Kiel" pop="3500" time_zone="-6" observes_dst="1" lat="43.91" long="-88.04" abbr="KIE" />
+				<CITY id="38500" name="Kimberly" pop="6294" time_zone="-6" observes_dst="1" lat="44.27" long="-88.34" abbr="KIM" />
+				<CITY id="39212" name="Kohler" pop="1955" time_zone="-6" observes_dst="1" lat="43.5" long="-88.02" abbr="KOH" />
+				<CITY id="40934" name="Lodi" pop="3016" time_zone="-6" observes_dst="1" lat="43.31" long="-89.53" abbr="LOD" />
+				<CITY id="41195" name="Luxemburg" pop="2186" time_zone="-6" observes_dst="1" lat="44.54" long="-87.7" abbr="LUX" />
+				<CITY id="41502" name="Luck" pop="1233" time_zone="-6" observes_dst="1" lat="45.58" long="-92.48" abbr="LUC" />
+				<CITY id="41615" name="Loyal" pop="1296" time_zone="-6" observes_dst="1" lat="44.74" long="-90.5" abbr="LOY" />
+				<CITY id="41707" name="Lomira" pop="2473" time_zone="-6" observes_dst="1" lat="43.59" long="-88.44" abbr="LOM" />
+				<CITY id="42274" name="La Crosse" pop="50470" time_zone="-6" observes_dst="1" lat="43.83" long="-91.23" abbr="LA " />
+				<CITY id="42953" name="Lac du Flambeau" pop="1747" time_zone="-6" observes_dst="1" lat="45.97" long="-89.89" abbr="LAC" />
+				<CITY id="43014" name="Ladysmith" pop="3767" time_zone="-6" observes_dst="1" lat="45.46" long="-91.1" abbr="LAD" />
+				<CITY id="43200" name="Lake Delton" pop="3397" time_zone="-6" observes_dst="1" lat="43.6" long="-89.79" abbr="LAK" />
+				<CITY id="43210" name="Lake Geneva" pop="7529" time_zone="-6" observes_dst="1" lat="42.59" long="-88.43" abbr="LAK" />
+				<CITY id="43225" name="Lake Koshkonong" pop="1258" time_zone="-6" observes_dst="1" lat="42.91" long="-88.92" abbr="LAK" />
+				<CITY id="43239" name="Lake Mills" pop="4892" time_zone="-6" observes_dst="1" lat="43.08" long="-88.91" abbr="LAK" />
+				<CITY id="43247" name="Lake Nebagamon" pop="1083" time_zone="-6" observes_dst="1" lat="46.52" long="-91.7" abbr="LAK" />
+				<CITY id="43264" name="Lake Ripley" pop="1807" time_zone="-6" observes_dst="1" lat="43.01" long="-88.99" abbr="LAK" />
+				<CITY id="43285" name="Lake Wazeecha" pop="2834" time_zone="-6" observes_dst="1" lat="44.37" long="-89.76" abbr="LAK" />
+				<CITY id="43288" name="Lake Wisconsin" pop="4241" time_zone="-6" observes_dst="1" lat="43.37" long="-89.58" abbr="LAK" />
+				<CITY id="43289" name="Lake Wissota" pop="2580" time_zone="-6" observes_dst="1" lat="44.93" long="-91.3" abbr="LAK" />
+				<CITY id="43529" name="Lancaster" pop="3920" time_zone="-6" observes_dst="1" lat="42.85" long="-90.71" abbr="LAN" />
+				<CITY id="43729" name="Lannon" pop="1033" time_zone="-6" observes_dst="1" lat="43.15" long="-88.17" abbr="LAN" />
+				<CITY id="44635" name="Legend Lake" pop="1582" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="LEG" />
+				<CITY id="45746" name="Lisbon" pop="10230" time_zone="-6" observes_dst="1" lat="43.87" long="-90.17" abbr="LIS" />
+				<CITY id="45812" name="Little Chute" pop="10698" time_zone="-6" observes_dst="1" lat="44.29" long="-88.31" abbr="LIT" />
+				<CITY id="46388" name="McFarland" pop="7500" time_zone="-6" observes_dst="1" lat="43.01" long="-89.29" abbr="MAC" />
+				<CITY id="46552" name="Madison" pop="224625" time_zone="-6" observes_dst="1" lat="43.08" long="-89.39" abbr="MAD" />
+				<CITY id="47529" name="Manawa" pop="1372" time_zone="-6" observes_dst="1" lat="44.46" long="-88.92" abbr="MAN" />
+				<CITY id="47732" name="Manitowoc" pop="33939" time_zone="-6" observes_dst="1" lat="44.1" long="-87.68" abbr="MAN" />
+				<CITY id="47921" name="Maple Bluff" pop="1315" time_zone="-6" observes_dst="1" lat="43.12" long="-89.38" abbr="MAP" />
+				<CITY id="48033" name="Marathon City" pop="1539" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="MAR" />
+				<CITY id="48269" name="Marinette" pop="11171" time_zone="-6" observes_dst="1" lat="45.09" long="-87.63" abbr="MAR" />
+				<CITY id="48284" name="Marion" pop="1256" time_zone="-6" observes_dst="1" lat="44.67" long="-88.89" abbr="MAR" />
+				<CITY id="48329" name="Markesan" pop="1360" time_zone="-6" observes_dst="1" lat="43.71" long="-88.99" abbr="MAR" />
+				<CITY id="48515" name="Marshall" pop="3674" time_zone="-6" observes_dst="1" lat="43.17" long="-89.07" abbr="MAR" />
+				<CITY id="48522" name="Marshfield" pop="18670" time_zone="-6" observes_dst="1" lat="44.66" long="-90.17" abbr="MAR" />
+				<CITY id="49024" name="Mauston" pop="4188" time_zone="-6" observes_dst="1" lat="43.8" long="-90.08" abbr="MAU" />
+				<CITY id="49145" name="Mayville" pop="5027" time_zone="-6" observes_dst="1" lat="43.49" long="-88.54" abbr="MAY" />
+				<CITY id="49179" name="Mazomanie" pop="1475" time_zone="-6" observes_dst="1" lat="43.18" long="-89.79" abbr="MAZ" />
+				<CITY id="49310" name="Medford" pop="4130" time_zone="-6" observes_dst="1" lat="45.14" long="-90.34" abbr="MED" />
+				<CITY id="49593" name="Menasha" pop="16621" time_zone="-6" observes_dst="1" lat="44.21" long="-88.44" abbr="MEN" />
+				<CITY id="49648" name="Menomonee Falls" pop="34515" time_zone="-6" observes_dst="1" lat="43.15" long="-88.13" abbr="MEN" />
+				<CITY id="49649" name="Menomonie" pop="15361" time_zone="-6" observes_dst="1" lat="44.89" long="-91.91" abbr="MEN" />
+				<CITY id="49679" name="Mequon" pop="23902" time_zone="-6" observes_dst="1" lat="43.24" long="-87.99" abbr="MEQ" />
+				<CITY id="49765" name="Merrill" pop="10184" time_zone="-6" observes_dst="1" lat="45.18" long="-89.7" abbr="MER" />
+				<CITY id="49789" name="Merton" pop="2425" time_zone="-6" observes_dst="1" lat="43.15" long="-88.31" abbr="MER" />
+				<CITY id="50114" name="Middleton" pop="16288" time_zone="-6" observes_dst="1" lat="43.1" long="-89.51" abbr="MID" />
+				<CITY id="50422" name="Milton" pop="5464" time_zone="-6" observes_dst="1" lat="42.78" long="-88.94" abbr="MIL" />
+				<CITY id="50428" name="Milwaukee" pop="579180" time_zone="-6" observes_dst="1" lat="43.06" long="-87.97" abbr="MIL" />
+				<CITY id="50498" name="Mineral Point" pop="2448" time_zone="-6" observes_dst="1" lat="42.86" long="-90.18" abbr="MIN" />
+				<CITY id="50700" name="Mishicot" pop="1400" time_zone="-6" observes_dst="1" lat="44.24" long="-87.64" abbr="MIS" />
+				<CITY id="51209" name="Mondovi" pop="2641" time_zone="-6" observes_dst="1" lat="44.57" long="-91.67" abbr="MON" />
+				<CITY id="51264" name="Monona" pop="7927" time_zone="-6" observes_dst="1" lat="43.06" long="-89.33" abbr="MON" />
+				<CITY id="51275" name="Monroe" pop="10608" time_zone="-6" observes_dst="1" lat="42.6" long="-89.64" abbr="MON" />
+				<CITY id="51471" name="Montello" pop="1468" time_zone="-6" observes_dst="1" lat="43.79" long="-89.32" abbr="MON" />
+				<CITY id="51560" name="Monticello" pop="1120" time_zone="-6" observes_dst="1" lat="42.75" long="-89.59" abbr="MON" />
+				<CITY id="51998" name="Mosinee" pop="4059" time_zone="-6" observes_dst="1" lat="44.79" long="-89.7" abbr="MOS" />
+				<CITY id="52147" name="Mt. Horeb" pop="6235" time_zone="-6" observes_dst="1" lat="43.01" long="-89.74" abbr="MOU" />
+				<CITY id="52169" name="Mt. Pleasant" pop="26087" time_zone="-6" observes_dst="1" lat="42.72" long="-87.89" abbr="MOU" />
+				<CITY id="52471" name="Mukwonago" pop="6787" time_zone="-6" observes_dst="1" lat="42.87" long="-88.33" abbr="MUK" />
+				<CITY id="52714" name="Muscoda" pop="1410" time_zone="-6" observes_dst="1" lat="43.19" long="-90.44" abbr="MUS" />
+				<CITY id="52722" name="Muskego" pop="22889" time_zone="-6" observes_dst="1" lat="42.89" long="-88.12" abbr="MUS" />
+				<CITY id="54290" name="Nashotah" pop="1464" time_zone="-6" observes_dst="1" lat="43.1" long="-88.4" abbr="NAS" />
+				<CITY id="54588" name="Neenah" pop="24810" time_zone="-6" observes_dst="1" lat="44.17" long="-88.47" abbr="NEE" />
+				<CITY id="54637" name="Neillsville" pop="2667" time_zone="-6" observes_dst="1" lat="44.56" long="-90.6" abbr="NEI" />
+				<CITY id="54650" name="Nekoosa" pop="2651" time_zone="-6" observes_dst="1" lat="44.31" long="-89.9" abbr="NEK" />
+				<CITY id="55052" name="New Berlin" pop="38735" time_zone="-6" observes_dst="1" lat="42.97" long="-88.13" abbr="NEW" />
+				<CITY id="55097" name="New Glarus" pop="2022" time_zone="-6" observes_dst="1" lat="42.81" long="-89.64" abbr="NEW" />
+				<CITY id="55114" name="New Holstein" pop="3245" time_zone="-6" observes_dst="1" lat="43.95" long="-88.08" abbr="NEW" />
+				<CITY id="55132" name="New Lisbon" pop="1402" time_zone="-6" observes_dst="1" lat="43.88" long="-90.17" abbr="NEW" />
+				<CITY id="55139" name="New London" pop="7043" time_zone="-6" observes_dst="1" lat="44.39" long="-88.74" abbr="NEW" />
+				<CITY id="55175" name="New Richmond" pop="7498" time_zone="-6" observes_dst="1" lat="45.12" long="-92.54" abbr="NEW" />
+				<CITY id="55234" name="Newburg" pop="1137" time_zone="-6" observes_dst="1" lat="43.43" long="-88.05" abbr="NEW" />
+				<CITY id="55419" name="Niagara" pop="1769" time_zone="-6" observes_dst="1" lat="45.77" long="-87.99" abbr="NIA" />
+				<CITY id="56128" name="North Fond du Lac" pop="5050" time_zone="-6" observes_dst="1" lat="43.81" long="-88.48" abbr="NOR" />
+				<CITY id="56141" name="North Hudson" pop="3790" time_zone="-6" observes_dst="1" lat="44.99" long="-92.76" abbr="NOR" />
+				<CITY id="56189" name="North Prairie" pop="1924" time_zone="-6" observes_dst="1" lat="42.93" long="-88.41" abbr="NOR" />
+				<CITY id="56395" name="Oak Creek" pop="34755" time_zone="-6" observes_dst="1" lat="42.88" long="-87.9" abbr="OAK" />
+				<CITY id="56440" name="Oakfield" pop="1005" time_zone="-6" observes_dst="1" lat="43.69" long="-88.55" abbr="OAK" />
+				<CITY id="56755" name="Oconomowoc" pop="13757" time_zone="-6" observes_dst="1" lat="43.1" long="-88.5" abbr="OCO" />
+				<CITY id="56756" name="Oconto Falls" pop="2793" time_zone="-6" observes_dst="1" lat="44.87" long="-88.14" abbr="OCO" />
+				<CITY id="56757" name="Oconto" pop="4622" time_zone="-6" observes_dst="1" lat="44.89" long="-87.86" abbr="OCO" />
+				<CITY id="57009" name="Okauchee Lake" pop="3927" time_zone="-6" observes_dst="1" lat="43.12" long="-88.44" abbr="OKA" />
+				<CITY id="57317" name="Omro" pop="3327" time_zone="-6" observes_dst="1" lat="44.04" long="-88.74" abbr="OMR" />
+				<CITY id="57327" name="Onalaska" pop="15924" time_zone="-6" observes_dst="1" lat="43.89" long="-91.22" abbr="ONA" />
+				<CITY id="57350" name="Oneida" pop="1210" time_zone="-6" observes_dst="1" lat="44.5" long="-88.18" abbr="ONE" />
+				<CITY id="57395" name="Oostburg" pop="2703" time_zone="-6" observes_dst="1" lat="43.62" long="-87.79" abbr="OOS" />
+				<CITY id="57574" name="Oregon" pop="8428" time_zone="-6" observes_dst="1" lat="42.93" long="-89.38" abbr="ORE" />
+				<CITY id="57589" name="Orfordville" pop="1318" time_zone="-6" observes_dst="1" lat="42.63" long="-89.25" abbr="ORF" />
+				<CITY id="57785" name="Osceola" pop="2769" time_zone="-6" observes_dst="1" lat="45.32" long="-92.7" abbr="OSC" />
+				<CITY id="57801" name="Oshkosh" pop="63017" time_zone="-6" observes_dst="1" lat="44.02" long="-88.55" abbr="OSH" />
+				<CITY id="57841" name="Osseo" pop="1646" time_zone="-6" observes_dst="1" lat="44.57" long="-91.23" abbr="OSS" />
+				<CITY id="58456" name="Peshtigo" pop="3383" time_zone="-6" observes_dst="1" lat="45.05" long="-87.75" abbr="PES" />
+				<CITY id="58618" name="Pewaukee Village" pop="9018" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="PEW" />
+				<CITY id="58619" name="Pewaukee" pop="13332" time_zone="-6" observes_dst="1" lat="43.08" long="-88.25" abbr="PEW" />
+				<CITY id="58723" name="Phillips" pop="1515" time_zone="-6" observes_dst="1" lat="45.7" long="-90.4" abbr="PHI" />
+				<CITY id="59515" name="Platteville" pop="9786" time_zone="-6" observes_dst="1" lat="42.74" long="-90.48" abbr="PLA" />
+				<CITY id="59552" name="Pleasant Prairie" pop="19458" time_zone="-6" observes_dst="1" lat="42.52" long="-87.88" abbr="PLE" />
+				<CITY id="59710" name="Plover" pop="11464" time_zone="-6" observes_dst="1" lat="44.46" long="-89.54" abbr="PLO" />
+				<CITY id="59746" name="Plymouth" pop="8306" time_zone="-6" observes_dst="1" lat="43.75" long="-87.98" abbr="PLY" />
+				<CITY id="60392" name="Port Edwards" pop="1806" time_zone="-6" observes_dst="1" lat="44.35" long="-89.87" abbr="POR" />
+				<CITY id="60457" name="Port Washington" pop="11030" time_zone="-6" observes_dst="1" lat="43.39" long="-87.88" abbr="POR" />
+				<CITY id="60466" name="Portage" pop="10098" time_zone="-6" observes_dst="1" lat="43.55" long="-89.47" abbr="POR" />
+				<CITY id="60655" name="Potter Lake" pop="1090" time_zone="-6" observes_dst="1" lat="42.82" long="-88.35" abbr="POT" />
+				<CITY id="60721" name="Powers Lake" pop="1763" time_zone="-6" observes_dst="1" lat="42.55" long="-88.29" abbr="POW" />
+				<CITY id="60731" name="Poynette" pop="2568" time_zone="-6" observes_dst="1" lat="43.39" long="-89.4" abbr="POY" />
+				<CITY id="60801" name="Prairie du Chien" pop="5677" time_zone="-6" observes_dst="1" lat="43.05" long="-91.14" abbr="PRA" />
+				<CITY id="60802" name="Prairie du Sac" pop="3497" time_zone="-6" observes_dst="1" lat="43.29" long="-89.72" abbr="PRA" />
+				<CITY id="60880" name="Prescott" pop="3780" time_zone="-6" observes_dst="1" lat="44.75" long="-92.8" abbr="PRE" />
+				<CITY id="61019" name="Princeton" pop="1474" time_zone="-6" observes_dst="1" lat="43.85" long="-89.12" abbr="PRI" />
+				<CITY id="61424" name="Pulaski" pop="3667" time_zone="-6" observes_dst="1" lat="44.67" long="-88.24" abbr="PUL" />
+				<CITY id="61971" name="Paddock Lake" pop="3203" time_zone="-6" observes_dst="1" lat="42.58" long="-88.11" abbr="PAD" />
+				<CITY id="62377" name="Palmyra" pop="1761" time_zone="-6" observes_dst="1" lat="42.88" long="-88.59" abbr="PAL" />
+				<CITY id="62839" name="Pardeeville" pop="2084" time_zone="-6" observes_dst="1" lat="43.54" long="-89.3" abbr="PAR" />
+				<CITY id="62891" name="Park Falls" pop="2451" time_zone="-6" observes_dst="1" lat="45.93" long="-90.44" abbr="PAR" />
+				<CITY id="63507" name="Pell Lake" pop="3561" time_zone="-6" observes_dst="1" lat="42.54" long="-88.35" abbr="PEL" />
+				<CITY id="64673" name="Racine" pop="79263" time_zone="-6" observes_dst="1" lat="42.73" long="-87.81" abbr="RAC" />
+				<CITY id="65016" name="Randolph" pop="1821" time_zone="-6" observes_dst="1" lat="43.54" long="-89.01" abbr="RAN" />
+				<CITY id="65020" name="Random Lake" pop="1566" time_zone="-6" observes_dst="1" lat="43.55" long="-87.96" abbr="RAN" />
+				<CITY id="65357" name="Redgranite" pop="1380" time_zone="-6" observes_dst="1" lat="44.04" long="-89.1" abbr="RED" />
+				<CITY id="65389" name="Reedsburg" pop="8505" time_zone="-6" observes_dst="1" lat="43.53" long="-90" abbr="REE" />
+				<CITY id="65391" name="Reedsville" pop="1158" time_zone="-6" observes_dst="1" lat="44.15" long="-87.96" abbr="REE" />
+				<CITY id="65616" name="Rothschild" pop="4793" time_zone="-6" observes_dst="1" lat="44.89" long="-89.62" abbr="ROT" />
+				<CITY id="65756" name="Richland Center" pop="5200" time_zone="-6" observes_dst="1" lat="43.33" long="-90.39" abbr="RIC" />
+				<CITY id="66480" name="Rochester" pop="1133" time_zone="-6" observes_dst="1" lat="42.74" long="-88.22" abbr="ROC" />
+				<CITY id="66532" name="Roberts" pop="1582" time_zone="-6" observes_dst="1" lat="44.98" long="-92.56" abbr="ROB" />
+				<CITY id="66671" name="River Hills" pop="1631" time_zone="-6" observes_dst="1" lat="43.17" long="-87.92" abbr="RIV" />
+				<CITY id="66675" name="River Falls" pop="13435" time_zone="-6" observes_dst="1" lat="44.86" long="-92.62" abbr="RIV" />
+				<CITY id="66730" name="Ripon" pop="7163" time_zone="-6" observes_dst="1" lat="43.84" long="-88.84" abbr="RIP" />
+				<CITY id="67044" name="Rhinelander" pop="7783" time_zone="-6" observes_dst="1" lat="45.64" long="-89.41" abbr="RHI" />
+				<CITY id="67072" name="Rib Mountain" pop="6811" time_zone="-6" observes_dst="1" lat="44.91" long="-89.68" abbr="RIB" />
+				<CITY id="67110" name="Rice Lake" pop="8236" time_zone="-6" observes_dst="1" lat="45.51" long="-91.74" abbr="RIC" />
+				<CITY id="67125" name="Richfield" pop="10892" time_zone="-6" observes_dst="1" lat="43.26" long="-88.2" abbr="RIC" />
+				<CITY id="67136" name="Stoddard" pop="815" time_zone="-6" observes_dst="1" lat="43.66" long="-91.22" abbr="STO" />
+				<CITY id="69033" name="St. Croix Falls" pop="2068" time_zone="-6" observes_dst="1" lat="45.41" long="-92.64" abbr="SAI" />
+				<CITY id="69041" name="St. Francis" pop="8867" time_zone="-6" observes_dst="1" lat="42.97" long="-87.88" abbr="SAI" />
+				<CITY id="69390" name="Salem" pop="11416" time_zone="-6" observes_dst="1" lat="42.56" long="-88.09" abbr="SAL" />
+				<CITY id="71822" name="Sauk City" pop="2973" time_zone="-6" observes_dst="1" lat="43.27" long="-89.72" abbr="SAU" />
+				<CITY id="71825" name="Saukville" pop="4185" time_zone="-6" observes_dst="1" lat="43.38" long="-87.94" abbr="SAU" />
+				<CITY id="72242" name="Schofield" pop="2295" time_zone="-6" observes_dst="1" lat="44.91" long="-89.6" abbr="SCH" />
+				<CITY id="73084" name="Seymour (Eau Claire County)" pop="1424" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="SEY" />
+				<CITY id="73090" name="Seymour (Outagamie County)" pop="3276" time_zone="-6" observes_dst="1" lat="44.52" long="-88.33" abbr="SEY" />
+				<CITY id="73296" name="Sharon" pop="1577" time_zone="-6" observes_dst="1" lat="42.5" long="-88.73" abbr="SHA" />
+				<CITY id="73330" name="Shawano" pop="8378" time_zone="-6" observes_dst="1" lat="44.78" long="-88.61" abbr="SHA" />
+				<CITY id="73361" name="Sheboygan Falls" pop="7123" time_zone="-6" observes_dst="1" lat="43.73" long="-87.81" abbr="SHE" />
+				<CITY id="73362" name="Sheboygan" pop="48591" time_zone="-6" observes_dst="1" lat="43.75" long="-87.73" abbr="SHE" />
+				<CITY id="73408" name="Shell Lake" pop="1369" time_zone="-6" observes_dst="1" lat="45.74" long="-91.93" abbr="SHE" />
+				<CITY id="73497" name="Sherwood" pop="2423" time_zone="-6" observes_dst="1" lat="44.17" long="-88.26" abbr="SHE" />
+				<CITY id="73692" name="Shorewood Hills" pop="1675" time_zone="-6" observes_dst="1" lat="43.08" long="-89.45" abbr="SHO" />
+				<CITY id="73694" name="Shorewood" pop="13192" time_zone="-6" observes_dst="1" lat="43.09" long="-87.89" abbr="SHO" />
+				<CITY id="73748" name="Shullsburg" pop="1217" time_zone="-6" observes_dst="1" lat="42.57" long="-90.23" abbr="SHU" />
+				<CITY id="74074" name="Silver Lake" pop="2480" time_zone="-6" observes_dst="1" lat="44.06" long="-89.23" abbr="SIL" />
+				<CITY id="74345" name="Siren" pop="1032" time_zone="-6" observes_dst="1" lat="45.79" long="-92.38" abbr="SIR" />
+				<CITY id="74617" name="Slinger" pop="4328" time_zone="-6" observes_dst="1" lat="43.33" long="-88.29" abbr="SLI" />
+				<CITY id="75004" name="Somers" pop="9454" time_zone="-6" observes_dst="1" lat="42.64" long="-87.91" abbr="SOM" />
+				<CITY id="75013" name="Somerset" pop="2799" time_zone="-6" observes_dst="1" lat="45.12" long="-92.67" abbr="SOM" />
+				<CITY id="75371" name="South Milwaukee" pop="21059" time_zone="-6" observes_dst="1" lat="42.91" long="-87.86" abbr="SOU" />
+				<CITY id="75559" name="Sparta" pop="8741" time_zone="-6" observes_dst="1" lat="43.94" long="-90.81" abbr="SPA" />
+				<CITY id="75587" name="Spencer" pop="1860" time_zone="-6" observes_dst="1" lat="44.76" long="-90.3" abbr="SPE" />
+				<CITY id="75645" name="Spooner" pop="2727" time_zone="-6" observes_dst="1" lat="45.82" long="-91.89" abbr="SPO" />
+				<CITY id="75664" name="Spring Green" pop="1402" time_zone="-6" observes_dst="1" lat="43.18" long="-90.07" abbr="SPR" />
+				<CITY id="75681" name="Spring Valley" pop="1217" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="SPR" />
+				<CITY id="75914" name="Stanley" pop="1828" time_zone="-6" observes_dst="1" lat="44.96" long="-90.94" abbr="STA" />
+				<CITY id="76235" name="Stevens Point" pop="24408" time_zone="-6" observes_dst="1" lat="44.53" long="-89.56" abbr="STE" />
+				<CITY id="76384" name="Stoughton" pop="12735" time_zone="-6" observes_dst="1" lat="42.92" long="-89.22" abbr="STO" />
+				<CITY id="76449" name="Stratford" pop="1566" time_zone="-6" observes_dst="1" lat="44.8" long="-90.08" abbr="STR" />
+				<CITY id="76564" name="Sturgeon Bay" pop="9492" time_zone="-6" observes_dst="1" lat="44.83" long="-87.37" abbr="STU" />
+				<CITY id="76571" name="Sturtevant" pop="5215" time_zone="-6" observes_dst="1" lat="42.7" long="-87.89" abbr="STU" />
+				<CITY id="76591" name="Suamico" pop="10297" time_zone="-6" observes_dst="1" lat="44.63" long="-88.04" abbr="SUA" />
+				<CITY id="76884" name="Sun Prairie" pop="25561" time_zone="-6" observes_dst="1" lat="43.18" long="-89.23" abbr="SUN" />
+				<CITY id="76985" name="Superior" pop="27130" time_zone="-6" observes_dst="1" lat="46.7" long="-92.06" abbr="SUP" />
+				<CITY id="77074" name="Sussex" pop="10152" time_zone="-6" observes_dst="1" lat="43.14" long="-88.22" abbr="SUS" />
+				<CITY id="78037" name="Tainter Lake" pop="2271" time_zone="-6" observes_dst="1" lat="44.99" long="-91.85" abbr="TAI" />
+				<CITY id="79600" name="Theresa" pop="1291" time_zone="-6" observes_dst="1" lat="43.52" long="-88.45" abbr="THE" />
+				<CITY id="79632" name="Thiensville" pop="3124" time_zone="-6" observes_dst="1" lat="43.24" long="-87.98" abbr="THI" />
+				<CITY id="79754" name="Thorp" pop="1586" time_zone="-6" observes_dst="1" lat="44.96" long="-90.8" abbr="THO" />
+				<CITY id="80478" name="Tomah" pop="8596" time_zone="-6" observes_dst="1" lat="43.98" long="-90.5" abbr="TOM" />
+				<CITY id="80479" name="Tomahawk" pop="3830" time_zone="-6" observes_dst="1" lat="45.47" long="-89.73" abbr="TOM" />
+				<CITY id="81043" name="Trempealeau" pop="1512" time_zone="-6" observes_dst="1" lat="44.01" long="-91.44" abbr="TRE" />
+				<CITY id="81821" name="Twin Lakes" pop="5461" time_zone="-6" observes_dst="1" lat="42.53" long="-88.25" abbr="TWI" />
+				<CITY id="81831" name="Two Rivers" pop="11985" time_zone="-6" observes_dst="1" lat="44.16" long="-87.58" abbr="TWO" />
+				<CITY id="82359" name="Union Grove" pop="4611" time_zone="-6" observes_dst="1" lat="42.69" long="-88.05" abbr="UNI" />
+				<CITY id="83004" name="Viroqua" pop="4361" time_zone="-6" observes_dst="1" lat="43.56" long="-90.89" abbr="VIR" />
+				<CITY id="83863" name="Valders" pop="1018" time_zone="-6" observes_dst="1" lat="44.07" long="-87.88" abbr="VAL" />
+				<CITY id="85133" name="Verona" pop="10649" time_zone="-6" observes_dst="1" lat="42.99" long="-89.54" abbr="VER" />
+				<CITY id="85414" name="Waterford North" pop="6448" time_zone="-6" observes_dst="1" lat="0" long="0" abbr="WAT" />
+				<CITY id="85421" name="Waterford" pop="4801" time_zone="-6" observes_dst="1" lat="42.76" long="-88.21" abbr="WAT" />
+				<CITY id="85429" name="Waterloo" pop="3279" time_zone="-6" observes_dst="1" lat="43.18" long="-88.99" abbr="WAT" />
+				<CITY id="85440" name="Watertown" pop="23323" time_zone="-6" observes_dst="1" lat="43.19" long="-88.72" abbr="WAT" />
+				<CITY id="85492" name="Waukesha" pop="68112" time_zone="-6" observes_dst="1" lat="43.01" long="-88.24" abbr="WAU" />
+				<CITY id="85495" name="Waunakee" pop="10366" time_zone="-6" observes_dst="1" lat="43.19" long="-89.45" abbr="WAU" />
+				<CITY id="85496" name="Waupaca" pop="5878" time_zone="-6" observes_dst="1" lat="44.36" long="-89.09" abbr="WAU" />
+				<CITY id="85497" name="Waupun" pop="10480" time_zone="-6" observes_dst="1" lat="43.63" long="-88.74" abbr="WAU" />
+				<CITY id="85500" name="Wausau" pop="36779" time_zone="-6" observes_dst="1" lat="44.96" long="-89.64" abbr="WAU" />
+				<CITY id="85502" name="Wautoma" pop="2213" time_zone="-6" observes_dst="1" lat="44.07" long="-89.29" abbr="WAU" />
+				<CITY id="85503" name="Wauwatosa" pop="45453" time_zone="-6" observes_dst="1" lat="43.06" long="-88.03" abbr="WAU" />
+				<CITY id="85808" name="Whitewater" pop="14536" time_zone="-6" observes_dst="1" lat="42.83" long="-88.74" abbr="WHI" />
+				<CITY id="85829" name="Whitehall" pop="1598" time_zone="-6" observes_dst="1" lat="44.37" long="-91.32" abbr="WHI" />
+				<CITY id="85833" name="Whitefish Bay" pop="13611" time_zone="-6" observes_dst="1" lat="43.11" long="-87.9" abbr="WHI" />
+				<CITY id="85921" name="Wrightstown" pop="2225" time_zone="-6" observes_dst="1" lat="44.33" long="-88.16" abbr="WRI" />
+				<CITY id="85940" name="Westby" pop="2159" time_zone="-6" observes_dst="1" lat="43.66" long="-90.85" abbr="WES" />
+				<CITY id="85976" name="Westfield" pop="1225" time_zone="-6" observes_dst="1" lat="43.88" long="-89.49" abbr="WES" />
+				<CITY id="86022" name="Weston" pop="13080" time_zone="-6" observes_dst="1" lat="44.9" long="-89.57" abbr="WES" />
+				<CITY id="86057" name="Woodville" pop="1274" time_zone="-6" observes_dst="1" lat="44.95" long="-92.29" abbr="WOO" />
+				<CITY id="86216" name="West Allis" pop="59363" time_zone="-6" observes_dst="1" lat="43.01" long="-88.03" abbr="WES" />
+				<CITY id="86220" name="West Baraboo" pop="1362" time_zone="-6" observes_dst="1" lat="43.47" long="-89.77" abbr="WES" />
+				<CITY id="86225" name="West Bend" pop="29431" time_zone="-6" observes_dst="1" lat="43.42" long="-88.18" abbr="WES" />
+				<CITY id="86347" name="West Milwaukee" pop="4028" time_zone="-6" observes_dst="1" lat="43.01" long="-87.97" abbr="WES" />
+				<CITY id="86386" name="West Salem" pop="4866" time_zone="-6" observes_dst="1" lat="43.9" long="-91.08" abbr="WES" />
+				<CITY id="86484" name="Weyauwega" pop="1829" time_zone="-6" observes_dst="1" lat="44.32" long="-88.93" abbr="WEY" />
+				<CITY id="86605" name="Whiting" pop="1733" time_zone="-6" observes_dst="1" lat="44.49" long="-89.56" abbr="WHI" />
+				<CITY id="86762" name="Wittenberg" pop="1130" time_zone="-6" observes_dst="1" lat="44.83" long="-89.17" abbr="WIT" />
+				<CITY id="86788" name="Wisconsin Rapids" pop="17724" time_zone="-6" observes_dst="1" lat="44.39" long="-89.83" abbr="WIS" />
+				<CITY id="86789" name="Wisconsin Dells" pop="2455" time_zone="-6" observes_dst="1" lat="43.63" long="-89.77" abbr="WIS" />
+				<CITY id="86871" name="Winneconne" pop="2431" time_zone="-6" observes_dst="1" lat="44.11" long="-88.71" abbr="WIN" />
+				<CITY id="86905" name="Windsor" pop="2692" time_zone="-6" observes_dst="1" lat="43.22" long="-89.34" abbr="WIN" />
+				<CITY id="86946" name="Wind Point" pop="1835" time_zone="-6" observes_dst="1" lat="42.78" long="-87.77" abbr="WIN" />
+				<CITY id="86947" name="Wind Lake" pop="6014" time_zone="-6" observes_dst="1" lat="42.83" long="-88.16" abbr="WIN" />
+				<CITY id="87079" name="Williams Bay" pop="2671" time_zone="-6" observes_dst="1" lat="42.58" long="-88.54" abbr="WIL" />
+				<CITY id="87529" name="Wales" pop="2614" time_zone="-6" observes_dst="1" lat="43" long="-88.38" abbr="WAL" />
+				<CITY id="87634" name="Walworth" pop="2655" time_zone="-6" observes_dst="1" lat="42.53" long="-88.6" abbr="WAL" />
+				<CITY id="87825" name="Washburn" pop="2306" time_zone="-6" observes_dst="1" lat="46.67" long="-90.89" abbr="WAS" />
+				</CITIES>
+			</STATE>
+		</NATION>
+		</NATIONS>
+	</CONTINENT>
+</WORLD>
