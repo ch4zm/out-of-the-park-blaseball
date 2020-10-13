@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+OOTP loads this file whenever the user creates a new game. You can edit this file as long as you watch the syntax. Please read the online manual section about customizing the world XML file.
+NATION tokens:
+use_hardcoded_ml_player_origins - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. Just disable it (set it to 0) or delete it and OOTP will not use the hard coded player distribution for that nation anymore.
+this_is_modern_usa - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. There should always be at least one nation with this flag enabled because OOTP needs it as the nation for pre-defined leagues, like NL or AL.
+
+When OOTP creates fictional players for modern US major leagues, it will need to find the following nations by name: Dominican Republic, Venezuela, Puerto Rico, Mexico, Canada, Cuba, Japan, Panama, Australia, South Korea, Germany, Aruba, England, The Netherlands, Italy, Spain, Taiwan. So you should not change the names for these nations if you want to simulate realistic major leagues!
+-->
+
+<WORLD id="1" name="default" version="2" timestamp="OOTP Developments 2019-06-26 12:40:53">
+	<ETHNICITIES>
+	<ETHNICITY id="0" name="Default" african="5" asian="5" east_indian="5" caucasian="5" hispanic="5" />
+	</ETHNICITIES>
+	<CONTINENTS>
+	<CONTINENT id="1" name="The World" pop="1000000" etid="0" abbr="WD" dem="World">
+		<NATIONS>
+		<NATION id="2" name="One World Nation" pop="1000000" etid="0" capid="1581" gender="0" bbqual="0" abbr="WLD" dem="World" time_zone="-8">
+			<ETHN_PCTS>
+			<ETHN_PCT etid="0" pct="100" />
+			</ETHN_PCTS>
+			<STATE id="3" name="One World State" pop="1000000" abbr="WS" time_zone="-8" observes_dst="1" lat="47.3826" long="-120.4472">
+				<CITIES>
+				<CITY id="357" name="Abbotsford" pop="1934" time_zone="-6" observes_dst="1" lat="44.95" long="-90.32" abbr="ABB" />
+				</CITIES>
+			</STATE>
+		</NATION>
+		</NATIONS>
+	</CONTINENT>
+	</CONTINENTS>
+	<REGIONS>
+	<REGION id="1" sort_order="60" name="US REGION: East Coast">
+		<REGION_STATES>
+		<REGION_STATE id="118" />
+		<REGION_STATE id="164" />
+		<REGION_STATE id="165" />
+		<REGION_STATE id="168" />
+		</REGION_STATES>
+    </REGION>
+</WORLD>
