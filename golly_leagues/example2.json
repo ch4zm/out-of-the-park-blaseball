@@ -3,128 +3,96 @@
         "teamName": "Wewoka Kites",
         "teamAbbr": "WK",
         "teamColor": "#0dab76",
-        "teamId": "c992034f-67fb-474b-8740-696deaf74839",
-        "league": "Hot League",
-        "division": "Fire Division"
+        "teamId": "c992034f-67fb-474b-8740-696deaf74839"
     },
     {
         "teamName": "Napa Nuts",
         "teamAbbr": "NN",
         "teamColor": "#0dab76",
-        "teamId": "18298dcb-f4f6-486b-ad21-1aaafc852095",
-        "league": "Hot League",
-        "division": "Fire Division"
+        "teamId": "18298dcb-f4f6-486b-ad21-1aaafc852095"
     },
     {
         "teamName": "Gordo Counter-Spies",
         "teamAbbr": "GC",
         "teamColor": "#0dab76",
-        "teamId": "6c9df00e-90e2-47d2-85b8-060bcad5d81b",
-        "league": "Hot League",
-        "division": "Fire Division"
+        "teamId": "6c9df00e-90e2-47d2-85b8-060bcad5d81b"
     },
     {
         "teamName": "Breckenridge Night Owls",
         "teamAbbr": "BNO",
         "teamColor": "#0dab76",
-        "teamId": "3aacef98-6ef9-4196-9442-c65f9bd705db",
-        "league": "Hot League",
-        "division": "Fire Division"
+        "teamId": "3aacef98-6ef9-4196-9442-c65f9bd705db"
     },
     {
         "teamName": "Charleston Comets",
         "teamAbbr": "CC",
         "teamColor": "#0dab76",
-        "teamId": "ae88fb5b-8803-40b9-95cc-298a42ee6ee4",
-        "league": "Hot League",
-        "division": "Water Division"
+        "teamId": "ae88fb5b-8803-40b9-95cc-298a42ee6ee4"
     },
     {
         "teamName": "Maunawili Balloon Animals",
         "teamAbbr": "MBA",
         "teamColor": "#0dab76",
-        "teamId": "55492c3a-bb0e-4ba3-aeb3-d3646b4c8ca3",
-        "league": "Hot League",
-        "division": "Water Division"
+        "teamId": "55492c3a-bb0e-4ba3-aeb3-d3646b4c8ca3"
     },
     {
         "teamName": "Greater Carrollwood Dumpster Fires",
         "teamAbbr": "GCDF",
         "teamColor": "#0dab76",
-        "teamId": "279998a3-3659-4176-a671-89f5d06e8be5",
-        "league": "Hot League",
-        "division": "Water Division"
+        "teamId": "279998a3-3659-4176-a671-89f5d06e8be5"
     },
     {
         "teamName": "Orangeville VHS Tapes",
         "teamAbbr": "OUVT",
         "teamColor": "#0dab76",
-        "teamId": "589d0e01-aaf3-4a64-bb86-6034a00f3d4b",
-        "league": "Hot League",
-        "division": "Water Division"
+        "teamId": "589d0e01-aaf3-4a64-bb86-6034a00f3d4b"
     },
     {
         "teamName": "East Dennis Glitter Sharks",
         "teamAbbr": "EDGS",
         "teamColor": "#0dab76",
-        "teamId": "8a6d7416-70b7-4517-a723-efb8b476471b",
-        "league": "Cold League",
-        "division": "Fire Division"
+        "teamId": "8a6d7416-70b7-4517-a723-efb8b476471b"
     },
     {
         "teamName": "Highland Cold Showers",
         "teamAbbr": "HCS",
         "teamColor": "#0dab76",
-        "teamId": "95a5403e-f884-4240-9286-6052f280b384",
-        "league": "Cold League",
-        "division": "Fire Division"
+        "teamId": "95a5403e-f884-4240-9286-6052f280b384"
     },
     {
         "teamName": "DeLand Unicorns",
         "teamAbbr": "DU",
         "teamColor": "#0dab76",
-        "teamId": "a9f3282f-0ae3-4828-ac9b-13201afed1f5",
-        "league": "Cold League",
-        "division": "Fire Division"
+        "teamId": "a9f3282f-0ae3-4828-ac9b-13201afed1f5"
     },
     {
         "teamName": "Moscow Apiculturists",
         "teamAbbr": "MA",
         "teamColor": "#0dab76",
-        "teamId": "f2d0ee86-5741-4068-9990-6be979e246d7",
-        "league": "Cold League",
-        "division": "Fire Division"
+        "teamId": "f2d0ee86-5741-4068-9990-6be979e246d7"
     },
     {
         "teamName": "Fortuna Foothills Salt Licks",
         "teamAbbr": "FFSL",
         "teamColor": "#0dab76",
-        "teamId": "b19cb27c-6de9-4fe1-8c4f-bb5cbc1c5589",
-        "league": "Cold League",
-        "division": "Water Division"
+        "teamId": "b19cb27c-6de9-4fe1-8c4f-bb5cbc1c5589"
     },
     {
         "teamName": "Weedpatch Night Owls",
         "teamAbbr": "WNO",
         "teamColor": "#0dab76",
-        "teamId": "99adfc56-cab9-4c1a-b2c3-a9ade5543d3d",
-        "league": "Cold League",
-        "division": "Water Division"
+        "teamId": "99adfc56-cab9-4c1a-b2c3-a9ade5543d3d"
     },
     {
         "teamName": "Woodbourne Cashews",
         "teamAbbr": "WC",
         "teamColor": "#0dab76",
-        "teamId": "8291a044-e340-4172-a59e-346634050b17",
-        "league": "Cold League",
-        "division": "Water Division"
+        "teamId": "8291a044-e340-4172-a59e-346634050b17"
     },
     {
         "teamName": "Ionia Starched Collars",
         "teamAbbr": "ISC",
         "teamColor": "#0dab76",
-        "teamId": "066a1012-bcfc-4d01-b1f3-d38b53b2bc9a",
-        "league": "Cold League",
-        "division": "Water Division"
+        "teamId": "066a1012-bcfc-4d01-b1f3-d38b53b2bc9a"
     }
 ]
