@@ -3,7 +3,7 @@ import random
 import json
 
 colors = [
-    "#a0e7e5",
+    "#a0e7e8",
     "#ff66cc",
     "#9963ab",
     "#e7d7c1",
