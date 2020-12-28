@@ -8,91 +8,91 @@
     {
         "teamName": "Milton Butchers",
         "teamAbbr": "MB",
-        "teamColor": "#0dab76",
+        "teamColor": "#3e92cc",
         "teamId": "c66735a6-1389-475b-a7f3-167e00430177"
     },
     {
         "teamName": "Eastpoint Germophiles",
         "teamAbbr": "EG",
-        "teamColor": "#0dab76",
+        "teamColor": "#53917e",
         "teamId": "f956bb70-85e0-42d5-8a1c-fde9cdd851d8"
     },
     {
         "teamName": "Nokomis Squids",
         "teamAbbr": "NS",
-        "teamColor": "#0dab76",
+        "teamColor": "#697a21",
         "teamId": "74cf4833-4efd-47ea-961f-a2f5d0e70e22"
     },
     {
         "teamName": "Gold Bar Postdocs",
         "teamAbbr": "GBP",
-        "teamColor": "#0dab76",
+        "teamColor": "#990000",
         "teamId": "916f85bc-9744-496b-8830-2b1c1398afd4"
     },
     {
         "teamName": "Carlinville Thirdborn",
         "teamAbbr": "CT",
-        "teamColor": "#0dab76",
+        "teamColor": "#9963ab",
         "teamId": "0ec2fce0-5d6f-4b0a-aca5-7febb5cd8f0a"
     },
     {
         "teamName": "Greenfield Train Robbers",
         "teamAbbr": "GTR",
-        "teamColor": "#0dab76",
+        "teamColor": "#a0e7e5",
         "teamId": "6b871082-2899-4a2f-9079-ef2f80ead4d4"
     },
     {
         "teamName": "Gardnerville Moths",
         "teamAbbr": "GM",
-        "teamColor": "#0dab76",
+        "teamColor": "#a0e7e5",
         "teamId": "99360935-c664-4461-a531-df421346700b"
     },
     {
         "teamName": "Mogul Geniuses",
         "teamAbbr": "VG",
-        "teamColor": "#0dab76",
+        "teamColor": "#e7d7c1",
         "teamId": "9f94149f-eca5-4b1c-a1ae-2d7a163cb98c"
     },
     {
         "teamName": "Reedsport Commuters",
         "teamAbbr": "RC",
-        "teamColor": "#0dab76",
+        "teamColor": "#e86215",
         "teamId": "3e61b1a0-53da-4d1b-9239-8cf6bffbf3c2"
     },
     {
         "teamName": "Conway Umbrellas",
         "teamAbbr": "CU",
-        "teamColor": "#0dab76",
+        "teamColor": "#ef6f6c",
         "teamId": "504c012c-816c-4ee8-a42d-df0ca31d0d12"
     },
     {
         "teamName": "Rye Red Rumps",
         "teamAbbr": "RRR",
-        "teamColor": "#0dab76",
+        "teamColor": "#f08700",
         "teamId": "92e09b82-88dc-4edb-a955-f8e8229e3d0c"
     },
     {
         "teamName": "Lely Closed Circuits",
         "teamAbbr": "LCC",
-        "teamColor": "#0dab76",
+        "teamColor": "#f2c57c",
         "teamId": "57124897-0011-472f-a49f-bfdd7f877fb5"
     },
     {
         "teamName": "Chatmoss Tailing Ponds",
         "teamAbbr": "CTP",
-        "teamColor": "#0dab76",
+        "teamColor": "#ff1717",
         "teamId": "db0cc268-1543-43b8-a116-3d46f6f97eea"
     },
     {
         "teamName": "Xenia Tools",
         "teamAbbr": "XT",
-        "teamColor": "#0dab76",
+        "teamColor": "#ff66cc",
         "teamId": "175828bb-97a8-4e28-b601-f92878e9e6e7"
     },
     {
         "teamName": "Northfield Troubles",
         "teamAbbr": "NT",
-        "teamColor": "#0dab76",
+        "teamColor": "#ffb627",
         "teamId": "079e1d55-fddd-44f6-b190-005363265814"
     }
 ]

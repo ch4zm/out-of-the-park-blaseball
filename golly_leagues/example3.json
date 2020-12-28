@@ -14,85 +14,85 @@
     {
         "teamName": "Sugar City Midnights",
         "teamAbbr": "SCM",
-        "teamColor": "#0dab76",
+        "teamColor": "#3e92cc",
         "teamId": "47038e3d-58e7-433a-a46b-0f5bd92d7fd3"
     },
     {
         "teamName": "New Hope Decay",
         "teamAbbr": "NHD",
-        "teamColor": "#0dab76",
+        "teamColor": "#53917e",
         "teamId": "c303f3b2-25d7-4131-9b52-46f29803b1a7"
     },
     {
         "teamName": "Sanbornton Sewer Covers",
         "teamAbbr": "SSC",
-        "teamColor": "#0dab76",
+        "teamColor": "#697a21",
         "teamId": "5c213f30-7b3c-4c79-bfbd-5ec392922fc2"
     },
     {
         "teamName": "Lindstrom Muffin Tops",
         "teamAbbr": "LMT",
-        "teamColor": "#0dab76",
+        "teamColor": "#990000",
         "teamId": "6c69ef0c-0071-462f-834d-a850b1e0eae4"
     },
     {
         "teamName": "Moorestown Bubbles",
         "teamAbbr": "MB",
-        "teamColor": "#0dab76",
+        "teamColor": "#9963ab",
         "teamId": "0173f9c9-a6df-4c63-8df7-49c1efc3a0b8"
     },
     {
         "teamName": "Hightstown Moonsharks",
         "teamAbbr": "HM",
-        "teamColor": "#0dab76",
+        "teamColor": "#a0e7e5",
         "teamId": "9b914b65-6bab-4bec-b30f-1b97ad7517ee"
     },
     {
         "teamName": "Sparta Delivery Drivers",
         "teamAbbr": "SDD",
-        "teamColor": "#0dab76",
+        "teamColor": "#a0e7e5",
         "teamId": "3787c50e-1858-4954-a971-35341d20a55a"
     },
     {
         "teamName": "Portage Anarchists",
         "teamAbbr": "PA",
-        "teamColor": "#0dab76",
+        "teamColor": "#e7d7c1",
         "teamId": "8a8cc5f1-5aa7-4986-ba1d-b96d7c27977e"
     },
     {
         "teamName": "Bridgeport Arsonists",
         "teamAbbr": "BA",
-        "teamColor": "#0dab76",
+        "teamColor": "#e86215",
         "teamId": "a6b96761-1c82-474e-a1b9-9eb4d4206841"
     },
     {
         "teamName": "South Amherst Moonlights",
         "teamAbbr": "SAM",
-        "teamColor": "#0dab76",
+        "teamColor": "#ef6f6c",
         "teamId": "b75ac9f3-8365-4ded-8875-49abee3150f5"
     },
     {
         "teamName": "Pittsboro Dumpster Fires",
         "teamAbbr": "PDF",
-        "teamColor": "#0dab76",
+        "teamColor": "#f08700",
         "teamId": "ef1fb858-881e-41ba-a795-ab0fd14c9419"
     },
     {
         "teamName": "Pine Level Lava Chuggers",
         "teamAbbr": "PLLC",
-        "teamColor": "#0dab76",
+        "teamColor": "#f2c57c",
         "teamId": "1e9a1cdc-d4ef-42c6-8219-9b871f6d3c31"
     },
     {
         "teamName": "West Whittier Wait No Nos",
-        "teamAbbr": "WWNWNN",
-        "teamColor": "#0dab76",
+        "teamAbbr": "WWWNN",
+        "teamColor": "#ff1717",
         "teamId": "6c35556d-c22e-43da-96bd-ec3b0b8a582a"
     },
     {
         "teamName": "Corinth Potholes",
         "teamAbbr": "CP",
-        "teamColor": "#0dab76",
+        "teamColor": "#ff66cc",
         "teamId": "1b006231-98e4-4340-a034-64ab066eea84"
     }
 ]
