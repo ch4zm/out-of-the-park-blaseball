@@ -1,0 +1,130 @@
+[
+    {
+        "teamName": "Amberley Suncakes",
+        "teamAbbr": "AS",
+        "teamColor": "#0dab76",
+        "teamId": "bf1f6c92-dd1a-40dc-a565-566f1c805586",
+        "league": "Hot League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Scituate Accountants",
+        "teamAbbr": "SA",
+        "teamColor": "#0dab76",
+        "teamId": "d2fe1c7a-0bc3-4d64-87c6-97c7d0429f15",
+        "league": "Hot League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Sugar City Midnights",
+        "teamAbbr": "SCM",
+        "teamColor": "#0dab76",
+        "teamId": "47038e3d-58e7-433a-a46b-0f5bd92d7fd3",
+        "league": "Hot League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "New Hope Decay",
+        "teamAbbr": "NHD",
+        "teamColor": "#0dab76",
+        "teamId": "c303f3b2-25d7-4131-9b52-46f29803b1a7",
+        "league": "Hot League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Sanbornton Sewer Covers",
+        "teamAbbr": "SSC",
+        "teamColor": "#0dab76",
+        "teamId": "5c213f30-7b3c-4c79-bfbd-5ec392922fc2",
+        "league": "Hot League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Lindstrom Muffin Tops",
+        "teamAbbr": "LMT",
+        "teamColor": "#0dab76",
+        "teamId": "6c69ef0c-0071-462f-834d-a850b1e0eae4",
+        "league": "Hot League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Moorestown Bubbles",
+        "teamAbbr": "MB",
+        "teamColor": "#0dab76",
+        "teamId": "0173f9c9-a6df-4c63-8df7-49c1efc3a0b8",
+        "league": "Hot League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Hightstown Moonsharks",
+        "teamAbbr": "HM",
+        "teamColor": "#0dab76",
+        "teamId": "9b914b65-6bab-4bec-b30f-1b97ad7517ee",
+        "league": "Hot League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Sparta Delivery Drivers",
+        "teamAbbr": "SDD",
+        "teamColor": "#0dab76",
+        "teamId": "3787c50e-1858-4954-a971-35341d20a55a",
+        "league": "Cold League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Portage Anarchists",
+        "teamAbbr": "PA",
+        "teamColor": "#0dab76",
+        "teamId": "8a8cc5f1-5aa7-4986-ba1d-b96d7c27977e",
+        "league": "Cold League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Bridgeport Arsonists",
+        "teamAbbr": "BA",
+        "teamColor": "#0dab76",
+        "teamId": "a6b96761-1c82-474e-a1b9-9eb4d4206841",
+        "league": "Cold League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "South Amherst Moonlights",
+        "teamAbbr": "SAM",
+        "teamColor": "#0dab76",
+        "teamId": "b75ac9f3-8365-4ded-8875-49abee3150f5",
+        "league": "Cold League",
+        "division": "Fire Division"
+    },
+    {
+        "teamName": "Pittsboro Dumpster Fires",
+        "teamAbbr": "PDF",
+        "teamColor": "#0dab76",
+        "teamId": "ef1fb858-881e-41ba-a795-ab0fd14c9419",
+        "league": "Cold League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Pine Level Lava Chuggers",
+        "teamAbbr": "PLLC",
+        "teamColor": "#0dab76",
+        "teamId": "1e9a1cdc-d4ef-42c6-8219-9b871f6d3c31",
+        "league": "Cold League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "West Whittier Wait No Nos",
+        "teamAbbr": "WWNWNN",
+        "teamColor": "#0dab76",
+        "teamId": "6c35556d-c22e-43da-96bd-ec3b0b8a582a",
+        "league": "Cold League",
+        "division": "Water Division"
+    },
+    {
+        "teamName": "Corinth Potholes",
+        "teamAbbr": "CP",
+        "teamColor": "#0dab76",
+        "teamId": "1b006231-98e4-4340-a034-64ab066eea84",
+        "league": "Cold League",
+        "division": "Water Division"
+    }
+]
